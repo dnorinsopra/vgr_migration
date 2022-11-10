@@ -1,0 +1,401 @@
+<query:AdhocQueryResponse status="urn:oasis:names:tc:ebxml-regrep:ResponseStatusType:Success" xmlns:query="urn:oasis:names:tc:ebxml-regrep:xsd:query:3.0">
+  <rim:RegistryObjectList xmlns:rim="urn:oasis:names:tc:ebxml-regrep:xsd:rim:3.0">
+    <rim:RegistryPackage objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:RegistryPackage" status="urn:oasis:names:tc:ebxml-regrep:StatusType:Approved" id="urn:uuid:99ab9520-c5c5-4853-9bda-b060cafc70a9" lid="urn:uuid:99ab9520-c5c5-4853-9bda-b060cafc70a9">
+      <rim:Slot name="submissionTime">
+        <rim:ValueList>
+          <rim:Value>20221103140909</rim:Value>
+        </rim:ValueList>
+      </rim:Slot>
+      <rim:Name>
+        <rim:LocalizedString value="Scanned Media"/>
+      </rim:Name>
+      <rim:VersionInfo comment=""/>
+      <rim:Classification id="urn:uuid:c7c26747-efcd-41d9-85fc-141e3e8eb164" classifiedObject="urn:uuid:99ab9520-c5c5-4853-9bda-b060cafc70a9" classificationNode="urn:uuid:a54d6aa5-d40d-43f9-88c5-b4633d873bdd" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification"/>
+      <rim:Classification id="urn:uuid:b2f6a601-319b-4009-9805-50eaf060db0f" classifiedObject="urn:uuid:99ab9520-c5c5-4853-9bda-b060cafc70a9" classificationScheme="urn:uuid:a7058bb9-b4e4-4307-ba5b-e3f0ab85e12d" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" nodeRepresentation="">
+        <rim:Slot name="authorPerson">
+          <rim:ValueList>
+            <rim:Value>Migration Tool - 9.2.0.2 - 001^^^^^^^&1.2.752.113.18.999.15&ISO</rim:Value>
+          </rim:ValueList>
+        </rim:Slot>
+        <rim:Slot name="authorRole">
+          <rim:ValueList>
+            <rim:Value>Information transmitter</rim:Value>
+          </rim:ValueList>
+        </rim:Slot>
+      </rim:Classification>
+      <rim:Classification id="urn:uuid:007e3d6c-6666-456f-94dc-3cfd934bd114" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classifiedObject="urn:uuid:99ab9520-c5c5-4853-9bda-b060cafc70a9" classificationScheme="urn:uuid:aa543740-bdda-424e-8c96-df4873be8500" nodeRepresentation="MEDIA-IMPORT">
+        <rim:Slot name="codingScheme">
+          <rim:ValueList>
+            <rim:Value>1.2.752.113.18.999.16</rim:Value>
+          </rim:ValueList>
+        </rim:Slot>
+        <rim:Name>
+          <rim:LocalizedString value="Imported from physical device"/>
+        </rim:Name>
+      </rim:Classification>
+      <rim:ExternalIdentifier id="urn:uuid:f191477c-41b7-44fb-8fa9-a0bbe7eed74b" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:ExternalIdentifier" registryObject="urn:uuid:99ab9520-c5c5-4853-9bda-b060cafc70a9" identificationScheme="urn:uuid:6b5aea1a-874d-4603-a4bc-96a0a7b38446" value="191212121212^^^&1.2.752.129.2.1.3.1&ISO">
+        <rim:Name>
+          <rim:LocalizedString value="XDSSubmissionSet.patientId"/>
+        </rim:Name>
+      </rim:ExternalIdentifier>
+      <rim:ExternalIdentifier id="urn:uuid:634647f1-c7c2-4ceb-937c-c530e0a43889" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:ExternalIdentifier" registryObject="urn:uuid:99ab9520-c5c5-4853-9bda-b060cafc70a9" identificationScheme="urn:uuid:554ac39e-e3fe-47fe-b233-965d2a147832" value="1.2.752.113.18.999.1.5.6">
+        <rim:Name>
+          <rim:LocalizedString value="XDSSubmissionSet.sourceId"/>
+        </rim:Name>
+      </rim:ExternalIdentifier>
+      <rim:ExternalIdentifier id="urn:uuid:9fc79e8a-a8e7-4c7d-bf10-79bed473a040" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:ExternalIdentifier" registryObject="urn:uuid:99ab9520-c5c5-4853-9bda-b060cafc70a9" identificationScheme="urn:uuid:96fdda7c-d067-4183-912e-bf5ee74998a8" value="1.2.826.0.1.3680043.8.13.3222.23698.20221103150909.13.21">
+        <rim:Name>
+          <rim:LocalizedString value="XDSSubmissionSet.uniqueId"/>
+        </rim:Name>
+      </rim:ExternalIdentifier>
+    </rim:RegistryPackage>
+    <rim:ExtrinsicObject objectType="urn:uuid:7edca82f-054d-47f2-a032-9b2a5b5186c1" status="urn:oasis:names:tc:ebxml-regrep:StatusType:Approved" id="urn:uuid:843db121-5147-40d3-9673-c7aa1f6c805f" mimeType="application/pdf" lid="urn:uuid:843db121-5147-40d3-9673-c7aa1f6c805f">
+      <rim:Slot name="creationTime">
+        <rim:ValueList>
+          <rim:Value>20210315120740</rim:Value>
+        </rim:ValueList>
+      </rim:Slot>
+      <rim:Slot name="hash">
+        <rim:ValueList>
+          <rim:Value>b3535c47e8f453de0db96ad6cbee347ac8ed24b9</rim:Value>
+        </rim:ValueList>
+      </rim:Slot>
+      <rim:Slot name="languageCode">
+        <rim:ValueList>
+          <rim:Value>sv-SE</rim:Value>
+        </rim:ValueList>
+      </rim:Slot>
+      <rim:Slot name="urn:ihe:iti:xds:2013:referenceIdList">
+        <rim:ValueList>
+          <rim:Value>RETINET^^^^1.2.752.113.18.999.12.6</rim:Value>
+          <rim:Value>7543C18B-165B-46E2-9E9B-B97FB7C30804^^^^1.2.752.113.18.999.13</rim:Value>
+          <rim:Value>F3FD9E1F-2F49-47A1-AEFA-A7C96F6BB5DA^^^^urn:ihe:iti:xds:2013:accession</rim:Value>
+        </rim:ValueList>
+      </rim:Slot>
+      <rim:Slot name="nrMedia">
+        <rim:ValueList>
+          <rim:Value>1</rim:Value>
+        </rim:ValueList>
+      </rim:Slot>
+      <rim:Slot name="originalCreationTime">
+        <rim:ValueList>
+          <rim:Value>20210315130740</rim:Value>
+        </rim:ValueList>
+      </rim:Slot>
+      <rim:Slot name="editHistory">
+        <rim:ValueList>
+          <rim:Value>20210315130740^sysadmin</rim:Value>
+        </rim:ValueList>
+      </rim:Slot>
+      <rim:Slot name="datamodelVersion">
+        <rim:ValueList>
+          <rim:Value>1.4</rim:Value>
+        </rim:ValueList>
+      </rim:Slot>
+      <rim:Slot name="repositoryUniqueId">
+        <rim:ValueList>
+          <rim:Value>1.2.752.113.18.999.17</rim:Value>
+        </rim:ValueList>
+      </rim:Slot>
+      <rim:Slot name="serviceStartTime">
+        <rim:ValueList>
+          <rim:Value>20210211000000</rim:Value>
+        </rim:ValueList>
+      </rim:Slot>
+      <rim:Slot name="size">
+        <rim:ValueList>
+          <rim:Value>91296</rim:Value>
+        </rim:ValueList>
+      </rim:Slot>
+      <rim:Slot name="sourcePatientId">
+        <rim:ValueList>
+          <rim:Value>191212121212^^^&1.2.752.129.2.1.3.1&ISO</rim:Value>
+        </rim:ValueList>
+      </rim:Slot>
+      <rim:Slot name="sourcePatientInfo">
+        <rim:ValueList>
+          <rim:Value>PID-3|191212121212^^^&1.2.752.129.2.1.3.1&ISO</rim:Value>
+          <rim:Value>PID-5|TOLVSSON, TVÅ TOLVE^^^^</rim:Value>
+        </rim:ValueList>
+      </rim:Slot>
+      <rim:VersionInfo versionName="1" comment=""/>
+      <rim:Classification id="urn:uuid:c778067b-c7f4-4a5d-bb2a-266d813eebd9" classifiedObject="urn:uuid:843db121-5147-40d3-9673-c7aa1f6c805f" classificationScheme="urn:uuid:93606bcf-9494-43ec-9b4e-a7748d1a838d" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" nodeRepresentation="">
+        <rim:Slot name="authorPerson">
+          <rim:ValueList>
+            <rim:Value>andek6^^^^^^^^&1.2.752.113.18.999.6.1&ISO</rim:Value>
+          </rim:ValueList>
+        </rim:Slot>
+        <rim:Slot name="authorInstitution">
+          <rim:ValueList>
+            <rim:Value>Verksamhet Ögonsjukvård^^SE2321000131-E000000000979^^^&1.2.752.129.2.1.4.1&ISO^Verksamhetsområde</rim:Value>
+            <rim:Value>Västra Götalandsregionen^^SE2321000131-E000000000001^^^&1.2.752.129.2.1.4.1&ISO^Vårdgivare</rim:Value>
+            <rim:Value>Sahlgrenska Universitetssjukhuset^^SE2321000131-E000000000109^^^&1.2.752.129.2.1.4.1&ISO^Myndighet</rim:Value>
+            <rim:Value>Ögonmottagning Kungälv^^SE2321000131-E000000001106^^^&1.2.752.129.2.1.4.1&ISO^Enhet</rim:Value>
+          </rim:ValueList>
+        </rim:Slot>
+      </rim:Classification>
+      <rim:Classification id="urn:uuid:63e9bb6c-7090-406a-9f77-624f4fc603b4" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classifiedObject="urn:uuid:843db121-5147-40d3-9673-c7aa1f6c805f" classificationScheme="urn:uuid:41a5887f-8865-4c09-adf7-e362475b143a" nodeRepresentation="KAT110">
+        <rim:Slot name="codingScheme">
+          <rim:ValueList>
+            <rim:Value>1.2.752.113.18.999.8</rim:Value>
+          </rim:ValueList>
+        </rim:Slot>
+        <rim:Name>
+          <rim:LocalizedString value="Äldre journal"/>
+        </rim:Name>
+      </rim:Classification>
+      <rim:Classification id="urn:uuid:55e8dc83-3fa2-4a61-9e77-564266d89ef9" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classifiedObject="urn:uuid:843db121-5147-40d3-9673-c7aa1f6c805f" classificationScheme="urn:uuid:f4f85eac-e6cb-4883-b524-f2705394840f" nodeRepresentation="N">
+        <rim:Slot name="codingScheme">
+          <rim:ValueList>
+            <rim:Value>2.16.840.1.113883.5.25</rim:Value>
+          </rim:ValueList>
+        </rim:Slot>
+        <rim:Name>
+          <rim:LocalizedString value="Normal"/>
+        </rim:Name>
+      </rim:Classification>
+      <rim:Classification id="urn:uuid:f7c99c27-4bc3-4aa4-8249-bfe2e6d7a1e6" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classifiedObject="urn:uuid:843db121-5147-40d3-9673-c7aa1f6c805f" classificationScheme="urn:uuid:2c6b8cb7-8b2a-4051-b291-b1ae6a575ef4" nodeRepresentation="0088">
+        <rim:Slot name="codingScheme">
+          <rim:ValueList>
+            <rim:Value>1.2.752.113.18.999.10</rim:Value>
+          </rim:ValueList>
+        </rim:Slot>
+        <rim:Name>
+          <rim:LocalizedString value="Ögonbottenfotobedömning"/>
+        </rim:Name>
+      </rim:Classification>
+      <rim:Classification id="urn:uuid:93cd61f3-bab1-482f-bf6a-bf1222c1971f" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classifiedObject="urn:uuid:843db121-5147-40d3-9673-c7aa1f6c805f" classificationScheme="urn:uuid:2c6b8cb7-8b2a-4051-b291-b1ae6a575ef4" nodeRepresentation="Skannad journal">
+        <rim:Slot name="codingScheme">
+          <rim:ValueList>
+            <rim:Value>1.2.752.113.18.999.9</rim:Value>
+          </rim:ValueList>
+        </rim:Slot>
+        <rim:Name>
+          <rim:LocalizedString value="Skannad journal"/>
+        </rim:Name>
+      </rim:Classification>
+      <rim:Classification id="urn:uuid:7d35c12d-a7c8-4305-9176-e0ba2e80dbbb" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classifiedObject="urn:uuid:843db121-5147-40d3-9673-c7aa1f6c805f" classificationScheme="urn:uuid:a09d5840-386c-46f2-b5ad-9c3699a4309d" nodeRepresentation="urn:ihe:iti:xds:2017:mimeTypeSufficient">
+        <rim:Slot name="codingScheme">
+          <rim:ValueList>
+            <rim:Value>1.3.6.1.4.1.19376.1.2.3</rim:Value>
+          </rim:ValueList>
+        </rim:Slot>
+        <rim:Name>
+          <rim:LocalizedString value="Format from MIME Type sufficient"/>
+        </rim:Name>
+      </rim:Classification>
+      <rim:Classification id="urn:uuid:a97d2348-ed27-44f6-8483-3351f4feebaf" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classifiedObject="urn:uuid:843db121-5147-40d3-9673-c7aa1f6c805f" classificationScheme="urn:uuid:f33fb8ac-18af-42cc-ae0e-ed0b0bdb91e1" nodeRepresentation="KAT110-010">
+        <rim:Slot name="codingScheme">
+          <rim:ValueList>
+            <rim:Value>1.2.752.113.18.999.3</rim:Value>
+          </rim:ValueList>
+        </rim:Slot>
+        <rim:Name>
+          <rim:LocalizedString value="Äldre journal"/>
+        </rim:Name>
+      </rim:Classification>
+      <rim:Classification id="urn:uuid:cb9cfd6e-27ab-475e-ba90-8f3b7b1204e3" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classifiedObject="urn:uuid:843db121-5147-40d3-9673-c7aa1f6c805f" classificationScheme="urn:uuid:f0306f51-975f-434e-a61c-c59651d33983" nodeRepresentation="KAT110-010">
+        <rim:Slot name="codingScheme">
+          <rim:ValueList>
+            <rim:Value>1.2.752.113.18.999.3</rim:Value>
+          </rim:ValueList>
+        </rim:Slot>
+        <rim:Name>
+          <rim:LocalizedString value="Äldre journal"/>
+        </rim:Name>
+      </rim:Classification>
+      <rim:ExternalIdentifier id="urn:uuid:f4c588ef-61bb-4b26-8dc8-4168a968cf47" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:ExternalIdentifier" registryObject="urn:uuid:843db121-5147-40d3-9673-c7aa1f6c805f" identificationScheme="urn:uuid:58a6f841-87b3-4a3e-92fd-a8ffeff98427" value="191212121212^^^&1.2.752.129.2.1.3.1&ISO">
+        <rim:Name>
+          <rim:LocalizedString value="XDSDocumentEntry.patientId"/>
+        </rim:Name>
+      </rim:ExternalIdentifier>
+      <rim:ExternalIdentifier id="urn:uuid:90f395dc-fe28-4005-80f8-d821bf145a6f" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:ExternalIdentifier" registryObject="urn:uuid:843db121-5147-40d3-9673-c7aa1f6c805f" identificationScheme="urn:uuid:2e82c1f6-a085-4c72-9da3-8640a32e42ab" value="1.2.826.0.1.3680043.8.13.3222.23698.20221103150909.13.21.0">
+        <rim:Name>
+          <rim:LocalizedString value="XDSDocumentEntry.uniqueId"/>
+        </rim:Name>
+      </rim:ExternalIdentifier>
+    </rim:ExtrinsicObject>
+    <rim:ExtrinsicObject objectType="urn:uuid:7edca82f-054d-47f2-a032-9b2a5b5186c1" status="urn:oasis:names:tc:ebxml-regrep:StatusType:Approved" id="urn:uuid:8726c625-705e-44cc-8e16-e6d15ea5cea9" mimeType="application/pdf" lid="urn:uuid:8726c625-705e-44cc-8e16-e6d15ea5cea9">
+      <rim:Slot name="creationTime">
+        <rim:ValueList>
+          <rim:Value>20210315120740</rim:Value>
+        </rim:ValueList>
+      </rim:Slot>
+      <rim:Slot name="hash">
+        <rim:ValueList>
+          <rim:Value>b3535c47e8f453de0db96ad6cbee347ac8ed24b9</rim:Value>
+        </rim:ValueList>
+      </rim:Slot>
+      <rim:Slot name="languageCode">
+        <rim:ValueList>
+          <rim:Value>sv-SE</rim:Value>
+        </rim:ValueList>
+      </rim:Slot>
+      <rim:Slot name="urn:ihe:iti:xds:2013:referenceIdList">
+        <rim:ValueList>
+          <rim:Value>RETINET^^^^1.2.752.113.18.999.12.6</rim:Value>
+          <rim:Value>7543C18B-165B-46E2-9E9B-B97FB7C30804^^^^1.2.752.113.18.999.13</rim:Value>
+          <rim:Value>F3FD9E1F-2F49-47A1-AEFA-A7C96F6BB5DA^^^^urn:ihe:iti:xds:2013:accession</rim:Value>
+        </rim:ValueList>
+      </rim:Slot>
+      <rim:Slot name="nrMedia">
+        <rim:ValueList>
+          <rim:Value>1</rim:Value>
+        </rim:ValueList>
+      </rim:Slot>
+      <rim:Slot name="originalCreationTime">
+        <rim:ValueList>
+          <rim:Value>20210315130740</rim:Value>
+        </rim:ValueList>
+      </rim:Slot>
+      <rim:Slot name="editHistory">
+        <rim:ValueList>
+          <rim:Value>20210315130740^sysadmin</rim:Value>
+        </rim:ValueList>
+      </rim:Slot>
+      <rim:Slot name="datamodelVersion">
+        <rim:ValueList>
+          <rim:Value>1.4</rim:Value>
+        </rim:ValueList>
+      </rim:Slot>
+      <rim:Slot name="repositoryUniqueId">
+        <rim:ValueList>
+          <rim:Value>1.2.752.113.18.999.17</rim:Value>
+        </rim:ValueList>
+      </rim:Slot>
+      <rim:Slot name="serviceStartTime">
+        <rim:ValueList>
+          <rim:Value>20210211000000</rim:Value>
+        </rim:ValueList>
+      </rim:Slot>
+      <rim:Slot name="size">
+        <rim:ValueList>
+          <rim:Value>91296</rim:Value>
+        </rim:ValueList>
+      </rim:Slot>
+      <rim:Slot name="sourcePatientId">
+        <rim:ValueList>
+          <rim:Value>191212121212^^^&1.2.752.129.2.1.3.1&ISO</rim:Value>
+        </rim:ValueList>
+      </rim:Slot>
+      <rim:Slot name="sourcePatientInfo">
+        <rim:ValueList>
+          <rim:Value>PID-3|191212121212^^^&1.2.752.129.2.1.3.1&ISO</rim:Value>
+          <rim:Value>PID-5|TOLVSSON, TVÅ TOLVE^^^^</rim:Value>
+        </rim:ValueList>
+      </rim:Slot>
+      <rim:VersionInfo versionName="1" comment=""/>
+      <rim:Classification id="urn:uuid:1f009e6b-5762-49ad-990c-28c97d2987e9" classifiedObject="urn:uuid:8726c625-705e-44cc-8e16-e6d15ea5cea9" classificationScheme="urn:uuid:93606bcf-9494-43ec-9b4e-a7748d1a838d" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" nodeRepresentation="">
+        <rim:Slot name="authorPerson">
+          <rim:ValueList>
+            <rim:Value>andek6^^^^^^^^&1.2.752.113.18.999.6.1&ISO</rim:Value>
+          </rim:ValueList>
+        </rim:Slot>
+        <rim:Slot name="authorInstitution">
+          <rim:ValueList>
+            <rim:Value>Verksamhet Ögonsjukvård^^SE2321000131-E000000000979^^^&1.2.752.129.2.1.4.1&ISO^Verksamhetsområde</rim:Value>
+            <rim:Value>Västra Götalandsregionen^^SE2321000131-E000000000001^^^&1.2.752.129.2.1.4.1&ISO^Vårdgivare</rim:Value>
+            <rim:Value>Sahlgrenska Universitetssjukhuset^^SE2321000131-E000000000109^^^&1.2.752.129.2.1.4.1&ISO^Myndighet</rim:Value>
+            <rim:Value>Ögonmottagning Kungälv^^SE2321000131-E000000001106^^^&1.2.752.129.2.1.4.1&ISO^Enhet</rim:Value>
+          </rim:ValueList>
+        </rim:Slot>
+      </rim:Classification>
+      <rim:Classification id="urn:uuid:d639d8ae-faff-43d3-83b5-1e8afad826c8" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classifiedObject="urn:uuid:8726c625-705e-44cc-8e16-e6d15ea5cea9" classificationScheme="urn:uuid:41a5887f-8865-4c09-adf7-e362475b143a" nodeRepresentation="KAT110">
+        <rim:Slot name="codingScheme">
+          <rim:ValueList>
+            <rim:Value>1.2.752.113.18.999.8</rim:Value>
+          </rim:ValueList>
+        </rim:Slot>
+        <rim:Name>
+          <rim:LocalizedString value="Äldre journal"/>
+        </rim:Name>
+      </rim:Classification>
+      <rim:Classification id="urn:uuid:fdd40625-4a74-450d-b6a4-83941365750e" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classifiedObject="urn:uuid:8726c625-705e-44cc-8e16-e6d15ea5cea9" classificationScheme="urn:uuid:f4f85eac-e6cb-4883-b524-f2705394840f" nodeRepresentation="N">
+        <rim:Slot name="codingScheme">
+          <rim:ValueList>
+            <rim:Value>2.16.840.1.113883.5.25</rim:Value>
+          </rim:ValueList>
+        </rim:Slot>
+        <rim:Name>
+          <rim:LocalizedString value="Normal"/>
+        </rim:Name>
+      </rim:Classification>
+      <rim:Classification id="urn:uuid:7ead80da-71a0-4cb0-9f90-22e431b98add" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classifiedObject="urn:uuid:8726c625-705e-44cc-8e16-e6d15ea5cea9" classificationScheme="urn:uuid:2c6b8cb7-8b2a-4051-b291-b1ae6a575ef4" nodeRepresentation="0088">
+        <rim:Slot name="codingScheme">
+          <rim:ValueList>
+            <rim:Value>1.2.752.113.18.999.10</rim:Value>
+          </rim:ValueList>
+        </rim:Slot>
+        <rim:Name>
+          <rim:LocalizedString value="Ögonbottenfotobedömning"/>
+        </rim:Name>
+      </rim:Classification>
+      <rim:Classification id="urn:uuid:5c7e931d-2c90-4948-95c0-ac01bfa2e1c6" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classifiedObject="urn:uuid:8726c625-705e-44cc-8e16-e6d15ea5cea9" classificationScheme="urn:uuid:2c6b8cb7-8b2a-4051-b291-b1ae6a575ef4" nodeRepresentation="Skannad journal">
+        <rim:Slot name="codingScheme">
+          <rim:ValueList>
+            <rim:Value>1.2.752.113.18.999.9</rim:Value>
+          </rim:ValueList>
+        </rim:Slot>
+        <rim:Name>
+          <rim:LocalizedString value="Skannad journal"/>
+        </rim:Name>
+      </rim:Classification>
+      <rim:Classification id="urn:uuid:4fb52844-9156-4b05-8b5b-5b4c5e6305f0" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classifiedObject="urn:uuid:8726c625-705e-44cc-8e16-e6d15ea5cea9" classificationScheme="urn:uuid:a09d5840-386c-46f2-b5ad-9c3699a4309d" nodeRepresentation="urn:ihe:iti:xds:2017:mimeTypeSufficient">
+        <rim:Slot name="codingScheme">
+          <rim:ValueList>
+            <rim:Value>1.3.6.1.4.1.19376.1.2.3</rim:Value>
+          </rim:ValueList>
+        </rim:Slot>
+        <rim:Name>
+          <rim:LocalizedString value="Format from MIME Type sufficient"/>
+        </rim:Name>
+      </rim:Classification>
+      <rim:Classification id="urn:uuid:1e162aaa-316e-47f5-8e5e-52bef85564be" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classifiedObject="urn:uuid:8726c625-705e-44cc-8e16-e6d15ea5cea9" classificationScheme="urn:uuid:f33fb8ac-18af-42cc-ae0e-ed0b0bdb91e1" nodeRepresentation="KAT110-010">
+        <rim:Slot name="codingScheme">
+          <rim:ValueList>
+            <rim:Value>1.2.752.113.18.999.3</rim:Value>
+          </rim:ValueList>
+        </rim:Slot>
+        <rim:Name>
+          <rim:LocalizedString value="Äldre journal"/>
+        </rim:Name>
+      </rim:Classification>
+      <rim:Classification id="urn:uuid:55b3925a-4725-4f4f-9b50-f6353053f18a" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classifiedObject="urn:uuid:8726c625-705e-44cc-8e16-e6d15ea5cea9" classificationScheme="urn:uuid:f0306f51-975f-434e-a61c-c59651d33983" nodeRepresentation="KAT110-010">
+        <rim:Slot name="codingScheme">
+          <rim:ValueList>
+            <rim:Value>1.2.752.113.18.999.3</rim:Value>
+          </rim:ValueList>
+        </rim:Slot>
+        <rim:Name>
+          <rim:LocalizedString value="Äldre journal"/>
+        </rim:Name>
+      </rim:Classification>
+      <rim:ExternalIdentifier id="urn:uuid:30c2ca41-9c6a-4e4f-b6ca-8ea0f114e23a" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:ExternalIdentifier" registryObject="urn:uuid:8726c625-705e-44cc-8e16-e6d15ea5cea9" identificationScheme="urn:uuid:58a6f841-87b3-4a3e-92fd-a8ffeff98427" value="191212121212^^^&1.2.752.129.2.1.3.1&ISO">
+        <rim:Name>
+          <rim:LocalizedString value="XDSDocumentEntry.patientId"/>
+        </rim:Name>
+      </rim:ExternalIdentifier>
+      <rim:ExternalIdentifier id="urn:uuid:23ca1de4-67a9-4ceb-9651-87dc32041c83" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:ExternalIdentifier" registryObject="urn:uuid:8726c625-705e-44cc-8e16-e6d15ea5cea9" identificationScheme="urn:uuid:2e82c1f6-a085-4c72-9da3-8640a32e42ab" value="1.2.826.0.1.3680043.8.13.3222.23698.20221103150909.13.21.1">
+        <rim:Name>
+          <rim:LocalizedString value="XDSDocumentEntry.uniqueId"/>
+        </rim:Name>
+      </rim:ExternalIdentifier>
+    </rim:ExtrinsicObject>
+    <rim:Association objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Association" status="urn:oasis:names:tc:ebxml-regrep:StatusType:Approved" id="urn:uuid:39e675f3-06ea-447e-beb0-969de8c0c462" sourceObject="urn:uuid:99ab9520-c5c5-4853-9bda-b060cafc70a9" targetObject="urn:uuid:843db121-5147-40d3-9673-c7aa1f6c805f" associationType="urn:oasis:names:tc:ebxml-regrep:AssociationType:HasMember">
+      <rim:Slot name="SubmissionSetStatus">
+        <rim:ValueList>
+          <rim:Value>Original</rim:Value>
+        </rim:ValueList>
+      </rim:Slot>
+    </rim:Association>
+    <rim:Association objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Association" status="urn:oasis:names:tc:ebxml-regrep:StatusType:Approved" id="urn:uuid:be5e7816-63ce-4c6a-a8f1-38affd85d9b7" sourceObject="urn:uuid:99ab9520-c5c5-4853-9bda-b060cafc70a9" targetObject="urn:uuid:8726c625-705e-44cc-8e16-e6d15ea5cea9" associationType="urn:oasis:names:tc:ebxml-regrep:AssociationType:HasMember">
+      <rim:Slot name="SubmissionSetStatus">
+        <rim:ValueList>
+          <rim:Value>Original</rim:Value>
+        </rim:ValueList>
+      </rim:Slot>
+    </rim:Association>
+  </rim:RegistryObjectList>
+</query:AdhocQueryResponse>
+
+
