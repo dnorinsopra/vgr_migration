@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<serviceSettings>
+
+  <service pollingTime="00:00:30" stopWhenIdle="false">
+
+    <downtime start="23:30:00" end="05:00:00" />
+
+    <dbConnectionFrame connectionString="Data Source=VGDB0947\i01,62468;Initial Catalog=KIBIBase_Framework_SU;User ID=sql_kibibase;Password=K1biki8i1" dllType="System.Data.SqlClient" />
+    <dbConnectionMigrationTables connectionString="Data Source=VGDB0947\i01,62468;Initial Catalog=KIBIBase_Data_SU;User ID=sql_kibibase;Password=K1biki8i1" dllType="System.Data.SqlClient" />
+
+    <tempVolumesDirectory directory="D:\Netserv\Migration\MigrationVolumesTemp" />
+
+    <xdsConnection
+        registryEndpoint="https://vgas3899.vgregion.se/registry/DocumentRegistry"
+        repositoryEndpoint="https://vgas3899.vgregion.se/repository/DocumentRepository"
+        xdsDomainRoot="1.2.752.113.18.999.17"
+        repositoryUniqueId="1.2.752.113.18.999.17"
+        ignoreCertificateValidations="true"
+        __testModeUploadDirectory="D:\Netserv\Migration\TestModeUploadDirectory" />
+
+    <globalMigrationFieldMapping>
+      <edasFields>
+      </edasFields>
+      <xdsFieds>
+        <!-- Needs to be update for each new installation of the Migration tool        -->
+        <xdsField xdsFieldName="XdsSubmissionSet.Authors"                 xdsSubFieldName="product"                 inputType="static"                                    staticValue="Migration Tool - 9.2.0.2 - 001" />
+        <xdsField xdsFieldName="XdsSubmissionSet.Authors"                 xdsSubFieldName="authorProductOid"        inputType="static"                                    staticValue="1.2.752.113.18.999.15" />
+        <xdsField xdsFieldName="XdsSubmissionSet.Authors"                 xdsSubFieldName="authorRole"              inputType="static"                                    staticValue="Information transmitter" />
+
+        <xdsField xdsFieldName="XdsSubmissionSet.ContentTypeCode"         xdsSubFieldName="contentTypeCodeOid"      inputType="static"                                    staticValue="1.2.752.113.18.999.16" />
+        <xdsField xdsFieldName="XdsSubmissionSet.ContentTypeCode"         xdsSubFieldName="contentTypeCodeName"     inputType="static"                                    staticValue="Imported from physical device" />
+        <xdsField xdsFieldName="XdsSubmissionSet.ContentTypeCode"         xdsSubFieldName="contentTypeCodeCode"     inputType="static"                                    staticValue="MEDIA-IMPORT" />
+
+        <xdsField xdsFieldName="XdsSubmissionSet.Title"                                                             inputType="static"                                    staticValue="Scanned Media" />
+
+        <!-- Needs to be update when the configuration is updated using a different VGR Data model version        -->
+        <xdsField xdsFieldName="XdsDocument.AdditionalSlots"              xdsSubFieldName="datamodelVersion"        inputType="static"                                    staticValue="1.4" />
+
+        <xdsField xdsFieldName="XdsDocument.ConfidentialityCode"          xdsSubFieldName="confidentialityCodeOid"  inputType="static"                                    staticValue="2.16.840.1.113883.5.25" />
+        <xdsField xdsFieldName="XdsDocument.ConfidentialityCode"          xdsSubFieldName="confidentialityCodeName" inputType="static"                                    staticValue="Normal" />
+        <xdsField xdsFieldName="XdsDocument.ConfidentialityCode"          xdsSubFieldName="confidentialityCodeCode" inputType="static"                                    staticValue="N" />
+
+        <xdsField xdsFieldName="XdsDocument.FormatCode"                   xdsSubFieldName="formatCodeOid"           inputType="static"                                    staticValue="1.3.6.1.4.1.19376.1.2.3" />
+        <xdsField xdsFieldName="XdsDocument.FormatCode"                   xdsSubFieldName="formatCodeCode"          inputType="static"                                    staticValue="urn:ihe:iti:xds:2017:mimeTypeSufficient" />
+        <xdsField xdsFieldName="XdsDocument.FormatCode"                   xdsSubFieldName="formatCodeName"          inputType="static"                                    staticValue="Format from MIME Type sufficient" />
+
+      </xdsFieds>
+    </globalMigrationFieldMapping>
+
+    <migrationFieldMappings>
+      <migrationFieldMapping applicationID="7" archiveID="1" patientIdsLocationId="5" >
+        <edasFields>
+          <edasField id="1001" required="true" minLength="10" useLookupLongValue="true">
+            <subStringReplacement searchValue="-" newValue=""/>
+          </edasField>
+          <edasField id="1002" required="true" useLookupLongValue="false" />
+          <edasField id="1003" required="true" useLookupLongValue="false" />
+          <edasField id="1004" required="true" useLookupLongValue="false" />
+          <edasField id="1006" required="true" useLookupLongValue="false" />
+          <edasField id="1016" />
+        </edasFields>
+
+        <globalXdsFieds>
+          <globalXdsField xdsFieldName="XdsSubmissionSet.Authors"                 />
+          <globalXdsField xdsFieldName="XdsSubmissionSet.ContentTypeCode"         />
+          <globalXdsField xdsFieldName="XdsSubmissionSet.Title"                   />
+
+          <globalXdsField xdsFieldName="XdsDocument.AdditionalSlots"              />
+          <globalXdsField xdsFieldName="XdsDocument.ConfidentialityCode"          />
+          <globalXdsField xdsFieldName="XdsDocument.FormatCode"                   />
+        </globalXdsFieds>
+
+        <xdsFieds>
+          <!-- SourceId - [envRoot].1.4.[location]  Kodak CapturePro at [location]       -->
+          <xdsField xdsFieldName="XdsSubmissionSet.SourceId"                                                          inputType="static"                                    staticValue="1.2.752.113.18.999.1.4.5" />
+
+          <xdsField xdsFieldName="XdsSubmissionSet.PatientId" xdsSubFieldName="pid"     			inputType="edasField"                                 edasFieldID="1001" />
+          <xdsField xdsFieldName="XdsSubmissionSet.PatientId" xdsSubFieldName="pidOId"  			inputType="patientIdDll"  inputSubFieldName="pidOid"  edasFieldID="1001" />
+
+          <xdsField xdsFieldName="XdsDocument.PatientId"                                			inputType="patientIdDll"                              edasFieldID="1001" />
+
+          <xdsField xdsFieldName="XdsDocument.SourcePatientId"                          			      inputType="patientIdDll"                        edasFieldID="1001" />
+          <xdsField xdsFieldName="XdsDocument.SourcePatientInfo"  xdsSubFieldName="patientFamilyName" inputType="edasField"                           edasFieldID="1002" />
+
+          <xdsField xdsFieldName="XdsDocument.ClassCode"                        inputType="mvc"      edasFieldID="1004" mvcCatalogName="Kategori"        mvcSearchField="EdasField" mvcNothingFoundReturnType="Default" />
+          <xdsField xdsFieldName="XdsDocument.TypeCode"                         inputType="mvc"      edasFieldID="1004" mvcCatalogName="Underkategori"   mvcSearchField="EdasField" mvcNothingFoundReturnType="Default" />
+          <xdsField xdsFieldName="XdsDocument.HealthCareFacilityTypeCode"       inputType="mvc"      edasFieldID="1004" mvcCatalogName="Underkategori"   mvcSearchField="EdasField" mvcNothingFoundReturnType="Default" />
+          <xdsField xdsFieldName="XdsDocument.EventCode.Dokumenttyp"            inputType="mvc"      edasFieldID="1004" mvcCatalogName="Dokumenttyp"     mvcSearchField="EdasField" mvcNothingFoundReturnType="Default" />
+          <xdsField xdsFieldName="XdsDocument.EventCode.Ursprung"               inputType="mvc"      edasFieldID="1004" mvcCatalogName="Ursprung"        mvcSearchField="EdasField" mvcNothingFoundReturnType="Default" />
+
+          <xdsField xdsFieldName="XdsDocument.PracticeSettingCode"              inputType="mvc"      edasFieldID="1006" mvcCatalogName="Specialitet"     mvcSearchField="EdasField" mvcNothingFoundReturnType="Default" />
+          <xdsField xdsFieldName="XdsDocument.Author"                           xdsSubFieldName="Myndighet"                inputType="mvc"      edasFieldID="1006" mvcCatalogName="Myndighet"       mvcSearchField="EdasField" mvcNothingFoundReturnType="Default" />
+          <xdsField xdsFieldName="XdsDocument.Author"                           xdsSubFieldName="Enhet"                    inputType="mvc"      edasFieldID="1006" mvcCatalogName="Enhet"           mvcSearchField="EdasField" mvcNothingFoundReturnType="LeaveEmpty" />
+          <xdsField xdsFieldName="XdsDocument.Author"                           xdsSubFieldName="Verksamhetsomrade"         inputType="mvc"      edasFieldID="1006" mvcCatalogName="Vardenhet"       mvcSearchField="EdasField" mvcNothingFoundReturnType="Error" />
+          <xdsField xdsFieldName="XdsDocument.Author"                           xdsSubFieldName="Vardgivare"               inputType="mvc"      edasFieldID="1006" mvcCatalogName="Vardgivare"      mvcSearchField="EdasField" mvcNothingFoundReturnType="Default" />
+
+          <xdsField xdsFieldName="XdsDocument.ServiceStartTime"             inputType="edasField"                                 edasFieldID="1003" />
+          <xdsField xdsFieldName="XdsDocument.CreationTime"                 inputType="systemField"                               inputSubFieldName="DocumentCreatedTS" />
+
+          <xdsField xdsFieldName="XdsDocument.AdditionalSlots"              xdsSubFieldName="originalCreationTime"    inputType="systemField"   inputSubFieldName="DocumentCreatedTS" />
+          <xdsField xdsFieldName="XdsDocument.AdditionalSlots"              xdsSubFieldName="editHistoryModifiedTime" inputType="systemField"   inputSubFieldName="DocumentModifiedTS" />
+          <xdsField xdsFieldName="XdsDocument.AdditionalSlots"              xdsSubFieldName="editHistoryModifiedUser" inputType="systemField"   inputSubFieldName="DocumentModifiedUserName" />
+          <xdsField xdsFieldName="XdsDocument.AdditionalSlots"              xdsSubFieldName="nrMedia"                 inputType="systemField"   inputSubFieldName="DocumentPageCount" />
+
+          <xdsField xdsFieldName="XdsDocument.ReferenceIdList"              xdsSubFieldName="buntNamn"                inputType="edasField"     edasFieldID="1016"  ignoreIfEdasFieldIsEmpty="1016" />
+          <xdsField xdsFieldName="XdsDocument.ReferenceIdList"              xdsSubFieldName="buntNamnOid"             inputType="static"        staticValue="1.2.752.113.18.999.12.5" ignoreIfEdasFieldIsEmpty="1016" />
+          <xdsField xdsFieldName="XdsDocument.ReferenceIdList"              xdsSubFieldName="kibiGuid"                inputType="systemField"   inputSubFieldName="DocumentUniqueID" />
+          <xdsField xdsFieldName="XdsDocument.ReferenceIdList"              xdsSubFieldName="kibiGuidOid"             inputType="static"        staticValue="1.2.752.113.18.999.13" />
+          <xdsField xdsFieldName="XdsDocument.ReferenceIdList"              xdsSubFieldName="caseId"                  inputType="systemField"        inputSubFieldName="UniqueID" />
+        </xdsFieds>
+
+      </migrationFieldMapping>
+      <migrationFieldMapping applicationID="10" archiveID="1"  patientIdsLocationId="6">
+        <edasFields>
+          <edasField id="1001" required="true" minLength="10" useLookupLongValue="true">
+            <subStringReplacement searchValue="-" newValue=""/>
+          </edasField>
+          <edasField id="1002" required="true" useLookupLongValue="false" />
+          <edasField id="1007" required="true" />
+          <edasField id="1009" required="true" useLookupLongValue="false" />
+          <edasField id="1011" />
+          <edasField id="1013" />
+          <edasField id="1014" />
+          <edasField id="1016" />
+        </edasFields>
+
+        <globalXdsFieds>
+          <globalXdsField xdsFieldName="XdsSubmissionSet.Authors"                 />
+          <globalXdsField xdsFieldName="XdsSubmissionSet.ContentTypeCode"         />
+          <globalXdsField xdsFieldName="XdsSubmissionSet.Title"                   />
+
+          <globalXdsField xdsFieldName="XdsDocument.AdditionalSlots"              />
+          <globalXdsField xdsFieldName="XdsDocument.ConfidentialityCode"          />
+          <globalXdsField xdsFieldName="XdsDocument.FormatCode"                   />
+        </globalXdsFieds>
+
+        <xdsFieds>
+          <!-- SourceId - [envRoot].1.5.[location] Hyland Infiniworx at [location]       -->
+          <xdsField xdsFieldName="XdsSubmissionSet.SourceId"                                                          inputType="static"                                    staticValue="1.2.752.113.18.999.1.5.6" />
+
+          <xdsField xdsFieldName="XdsSubmissionSet.PatientId" xdsSubFieldName="pid"     			inputType="edasField"                                 edasFieldID="1001" />
+          <xdsField xdsFieldName="XdsSubmissionSet.PatientId" xdsSubFieldName="pidOId"  			inputType="patientIdDll"  inputSubFieldName="pidOid"  edasFieldID="1001" />
+
+          <xdsField xdsFieldName="XdsDocument.PatientId"                                			inputType="patientIdDll"                              edasFieldID="1001" />
+
+          <xdsField xdsFieldName="XdsDocument.SourcePatientId"                          			      inputType="patientIdDll"                        edasFieldID="1001" />
+          <xdsField xdsFieldName="XdsDocument.SourcePatientInfo"  xdsSubFieldName="patientFamilyName" inputType="edasField"                           edasFieldID="1002" />
+
+          <xdsField xdsFieldName="XdsDocument.ClassCode"                        inputType="mvc"      edasFieldID="1009" mvcCatalogName="Kategori-SU2"        mvcSearchField="EdasField" mvcNothingFoundReturnType="Default" />
+          <xdsField xdsFieldName="XdsDocument.TypeCode"                         inputType="mvc"      edasFieldID="1009" mvcCatalogName="Underkategori-SU2"   mvcSearchField="EdasField" mvcNothingFoundReturnType="Default" />
+          <xdsField xdsFieldName="XdsDocument.HealthCareFacilityTypeCode"       inputType="mvc"      edasFieldID="1009" mvcCatalogName="Underkategori-SU2"   mvcSearchField="EdasField" mvcNothingFoundReturnType="Default" />
+          <xdsField xdsFieldName="XdsDocument.EventCode.Dokumenttyp"            inputType="mvc"      edasFieldID="1009" mvcCatalogName="Dokumenttyp-SU2"     mvcSearchField="EdasField" mvcNothingFoundReturnType="Default" />
+          <!-- Ursprung skall läggas till senare för Retinet -->
+          <xdsField xdsFieldName="XdsDocument.EventCode.Ursprung"               inputType="mvc"      edasFieldID="1013" mvcCatalogName="Ursprung"        mvcSearchField="EdasField" mvcNothingFoundReturnType="Default" />
+
+          <!-- Skall genereras en mvc för Myndighetsmappningen. -->
+          <xdsField xdsFieldName="XdsDocument.Author"                           xdsSubFieldName="Myndighet"                inputType="mvc"      edasFieldID="1011" mvcCatalogName="Myndighet-SU2"       mvcSearchField="EdasField" mvcNothingFoundReturnType="Default" />
+          <xdsField xdsFieldName="XdsDocument.Author"                           xdsSubFieldName="Enhet"                    inputType="mvc"      edasFieldID="1011" mvcCatalogName="Enhet-SU2"           mvcSearchField="EdasField" mvcNothingFoundReturnType="LeaveEmpty" />
+          <xdsField xdsFieldName="XdsDocument.Author"                           xdsSubFieldName="Verksamhetsomrade"         inputType="mvc"      edasFieldID="1011" mvcCatalogName="Vardenhet-SU2"       mvcSearchField="EdasField" mvcNothingFoundReturnType="Error" />
+          <xdsField xdsFieldName="XdsDocument.Author"                           xdsSubFieldName="Vardgivare"               inputType="mvc"      edasFieldID="1011" mvcCatalogName="Vardgivare"      mvcSearchField="EdasField" mvcNothingFoundReturnType="Default" />
+
+          <xdsField xdsFieldName="XdsDocument.Author"                       xdsSubFieldName="userId"                  inputType="edasField"                                 edasFieldID="1014" />
+          <xdsField xdsFieldName="XdsDocument.Author"                       xdsSubFieldName="userIdIssuerOid"                  inputType="static"                           staticValue="1.2.752.113.18.999.6.1" />
+
+          <xdsField xdsFieldName="XdsDocument.ServiceStartTime"             inputType="edasField"                                 edasFieldID="1007" />
+          <xdsField xdsFieldName="XdsDocument.CreationTime"                 inputType="systemField"                               inputSubFieldName="DocumentCreatedTS" />
+
+          <xdsField xdsFieldName="XdsDocument.AdditionalSlots"              xdsSubFieldName="originalCreationTime"    inputType="systemField"   inputSubFieldName="DocumentCreatedTS" />
+          <xdsField xdsFieldName="XdsDocument.AdditionalSlots"              xdsSubFieldName="editHistoryModifiedTime" inputType="systemField"   inputSubFieldName="DocumentModifiedTS" />
+          <xdsField xdsFieldName="XdsDocument.AdditionalSlots"              xdsSubFieldName="editHistoryModifiedUser" inputType="systemField"   inputSubFieldName="DocumentModifiedUserName" />
+          <xdsField xdsFieldName="XdsDocument.AdditionalSlots"              xdsSubFieldName="nrMedia"                 inputType="systemField"   inputSubFieldName="DocumentPageCount" />
+
+          <xdsField xdsFieldName="XdsDocument.ReferenceIdList"              xdsSubFieldName="buntNamn"                inputType="edasField"     edasFieldID="1016"   ignoreIfEdasFieldIsEmpty="1016" />
+          <xdsField xdsFieldName="XdsDocument.ReferenceIdList"              xdsSubFieldName="buntNamnOid"             inputType="static"        staticValue="1.2.752.113.18.999.12.6"   ignoreIfEdasFieldIsEmpty="1016" />
+          <xdsField xdsFieldName="XdsDocument.ReferenceIdList"              xdsSubFieldName="kibiGuid"                inputType="systemField"   inputSubFieldName="DocumentUniqueID" />
+          <xdsField xdsFieldName="XdsDocument.ReferenceIdList"              xdsSubFieldName="kibiGuidOid"             inputType="static"        staticValue="1.2.752.113.18.999.13" />
+          <xdsField xdsFieldName="XdsDocument.ReferenceIdList"              xdsSubFieldName="caseId"                  inputType="systemField"        inputSubFieldName="UniqueID" />
+        </xdsFieds>
+
+      </migrationFieldMapping>
+    </migrationFieldMappings>
+
+    <migrationInputFiles testTifPageCount="false">
+      <migrationInputFile extension="tif,tiff,jpg,jpeg,png,bmp" convertToPdf="true" />
+      <migrationInputFile extension="pdf" convertToPdf="false" />
+      <migrationInputFile extension="mp4" convertToPdf="false" />
+    </migrationInputFiles>
+
+  </service>
+
+
+  <migrationSyncMaster isSyncMaster="true" syncMasterPollingTime="01:00:00">
+
+    <excludedFromMigration>
+
+    </excludedFromMigration>
+
+  </migrationSyncMaster>
+
+</serviceSettings>

@@ -1,0 +1,1227 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<masterValueCatalogs>
+  <masterValueCatalog name="Kategori" defaultOid="1.2.752.113.18.999.8" defaultCode="KAT110" defaultName="Äldre journal">>
+    <mvcItem oid="1.2.752.113.18.999.8" code="KAT110" name="Äldre journal" edasField="11" />
+  </masterValueCatalog>
+
+  <masterValueCatalog name="Underkategori" defaultOid="1.2.752.113.18.999.3" defaultCode="KAT110-010" defaultName="Äldre journal">
+    <mvcItem oid="1.2.752.113.18.999.3" code="KAT110-010" name="Äldre journal" edasField="11" />
+  </masterValueCatalog>
+
+  <masterValueCatalog name="Dokumenttyp" defaultOid="1.2.752.113.18.999.10" defaultCode="U001" defaultName="Ktg 1 – Journalöversikt">
+    <mvcItem oid="1.2.752.113.18.999.10" code="U001" name="Ktg 1 – Journalöversikt" edasField="01" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="U001" name="Ktg 2 – Remisser, inkommande, utgående och svar" edasField="02" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="U001" name="Ktg 3 – Verksamhetsspecifikt" edasField="03" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="U001" name="Ktg 4 – Laboratorie- och odlingsvärden" edasField="04" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="U001" name="Ktg 5 – PAD – Cytologi" edasField="05" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="U001" name="Ktg 6 – Klin Fys" edasField="06" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="U001" name="Ktg 7 – Röntgen" edasField="07" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="U001" name="Ktg 8 – Anestesi – Tempkurvor" edasField="08" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="U001" name="Ktg 9 - Övrigt" edasField="09" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="U001" name="Äldre journal" edasField="10" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="U001" name="Mikrofilm" edasField="11" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="U001" name="Mikrofilm" edasField="12" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="U001" name="Äldre journal - foto" edasField="13" />
+  </masterValueCatalog>
+
+  <masterValueCatalog name="Ursprung" defaultOid="1.2.752.113.18.999.9" defaultCode="Skannad journal" defaultName="Skannad journal">
+    <mvcItem oid="1.2.752.113.18.999.9" code="Mikrofilm" name="Mikrofilm" edasField="11" />
+    <mvcItem oid="1.2.752.113.18.999.9" code="Mikrofilm" name="Mikrofilm" edasField="12" />
+  </masterValueCatalog>
+
+  <masterValueCatalog name="Specialitet" defaultOid="1.2.752.113.18.999.11" defaultCode="AKUM" defaultName="Sahlgrenska Universitetssjukhuset" >
+    <mvcItem oid="1.2.752.113.18.999.11" code="AKUM" name="AKUM Akutmottagning SU/M" edasField="AKUM" />
+    <mvcItem oid="1.2.752.113.18.999.11" code="MORT" name="MORT Ortopedi SU/M" edasField="MORT" />
+  </masterValueCatalog>
+
+  <masterValueCatalog name="Myndighet" defaultOid="1.2.752.129.2.1.4.1" defaultCode="SE2321000131-E000000000109" defaultName="Sahlgrenska Universitetssjukhuset">
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000109" name="Sahlgrenska Universitetssjukhuset" edasField="AKUM" />
+  </masterValueCatalog>
+
+  <masterValueCatalog name="Enhet" >
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000757" name="Akutmottagning Mölndal" edasField="AKUM" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002771" name="Akutmottagning Sahlgrenska" edasField="AKUS" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002286" name="Akutmottagning Östra" edasField="AKUÖ" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002758" name="Arbets- och miljömedicinsk mottagning Sahlgrenska" edasField="AMM" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000001011" name="Logopedimottagning barn och ungdom " edasField="BLOG" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000001006" name="Neuropsykiatrisk mottagning barn och ungdom " edasField="BNK" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000001107" name="Ögonmottagning Barn" edasField="BOG" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002766" name="Medicinmottagning Sahlgrenska" edasField="CEM" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000010603" name="Klinisk genetik" edasField="CONK" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000008061" name="Centrum för klinisk prövning Gothia Forum " edasField="CTC" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002766" name="Medicinmottagning Sahlgrenska" edasField="DIA" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000781" name="Gastroenterologisk endoskopimottagning Sahlgrenska" edasField="GEA" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000008257" name="Koagulationscentrum Sahlgrenska" edasField="KOA" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000001106" name="Ögonmottagning Kungälv" edasField="KOG" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000995" name="Neurologimottagning Sahlgrenska" edasField="MNEU" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002650" name="Neurologopedi" edasField="NLOG" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002766" name="Medicinmottagning Sahlgrenska" edasField="OBES" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002317" name="Osteoporosmottagning Mölndal" edasField="OGER" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000004005" name="Ortopedimottagning Sahlgrenska" edasField="ORTS" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000010544" name="Psykiatrimottagning Centrum" edasField="PSCV" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000010544" name="Psykiatrimottagning Centrum" edasField="PSCÖ" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000010544" name="Psykosmottagning Centrum" edasField="PSNU" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000010544" name="Psykosmottagning Centrum" edasField="PSPT" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002162" name="Administrativ enhet externa rehabprogram" edasField="RSEK" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000001711" name="Logopedi- och foniatrimottagning Sahlgrenska" edasField="TVA" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-F000000000514" name="Könsmottagning Sahlgrenska" edasField="VEN" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000001039" name="Arbets- och miljödermatologisk mottagning Sahlgrenska" edasField="YD" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000001118" name="Öron-, näs- och halsmottagning Östra" edasField="ÖNHÖ" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000004006" name="Ortopedimottagningen Östra" edasField="ÖORT" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002396" name="Smärtcentrum 1 Östra" edasField="ÖSM" />
+  </masterValueCatalog>
+
+  <masterValueCatalog name="Vardenhet" >
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E999999999999" name="Denna skall ersättas med en korrekt enhet" edasField="ARE" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000740" name="Verksamhet Medicin och akutsjukvård Mölndal" edasField="AKUM" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000015112" name="Verksamhet Akutmedicin och geriatrik" edasField="AKUS" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002266" name="Verksamhet Medicin, Geriatrik och Akutmottagning Östra" edasField="AKUÖ" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000015113" name="Verksamhet Specialistmedicin" edasField="AMM" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000001070" name="Verksamhet Arbetsterapi och fysioterapi" edasField="ARB" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000977" name="Verksamhet Neurosjukvård" edasField="ARBN" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000012071" name="Verksamhet Obstetrik" edasField="BB" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002276" name="Verksamhet Beroende" edasField="BER" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002276" name="Verksamhet Beroende" edasField="BERE" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000794" name="Verksamhet Kirurgi barn" edasField="BK" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000792" name="Verksamhet Neurologi-Psykiatri-Habilitering" edasField="BLOG" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000792" name="Verksamhet Neurologi-Psykiatri-Habilitering" edasField="BNK" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000979" name="Verksamhet Ögonsjukvård" edasField="BOG" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000792" name="Verksamhet Neurologi-Psykiatri-Habilitering" edasField="BRH" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000792" name="Verksamhet Neurologi-Psykiatri-Habilitering" edasField="BUP" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000015113" name="Verksamhet Specialistmedicin" edasField="CEM" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000014987" name="Verksamhet Klinisk genetik och genomik" edasField="CONK" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000007029" name="Verksamhet FoUUI " edasField="CTC" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000015113" name="Verksamhet Specialistmedicin" edasField="DIA" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000001070" name="Verksamhet Arbetsterapi och fysioterapi" edasField="FYS" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000015113" name="Verksamhet Specialistmedicin" edasField="GEA" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002266" name="Verksamhet Medicin, Geriatrik och Akutmottagning Östra" edasField="GER" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000011660" name="Verksamhet Handkirurgi" edasField="HAND" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000015113" name="Verksamhet Specialistmedicin" edasField="HEMA" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002165" name="Verksamhet Kardiologi" edasField="HJ" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000004088" name="Verksamhet Transplantationscentrum" edasField="HLTP" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000977" name="Verksamhet Neurosjukvård" edasField="HNER" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000001034" name="Verksamhet Hud- och könssjukvård" edasField="HUD" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000003599" name="Verksamhet Hörselverksamhet" edasField="HVK" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000003599" name="Verksamhet Hörselverksamhet" edasField="HVM" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000003599" name="Verksamhet Hörselverksamhet" edasField="HVR" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000003599" name="Verksamhet Hörselverksamhet" edasField="HVS" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000003599" name="Verksamhet Hörselverksamhet" edasField="HVÖ" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002275" name="Verksamhet Infektion" edasField="IK" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000011596" name="Verksamhet Hybrid och intervention" edasField="KARL" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000012072" name="Verksamhet Gynekologi och reproduktionsmedicin" edasField="KK" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000015113" name="Verksamhet Specialistmedicin" edasField="KOA" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000979" name="Verksamhet Ögonsjukvård" edasField="KOG" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000008934" name="Verksamhet Lungmedicin allergologi och palliativ medicin" edasField="LFG" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000008934" name="Verksamhet Lungmedicin allergologi och palliativ medicin" edasField="LUNG" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000012071" name="Verksamhet Obstetrik" edasField="MBB" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000742" name="Verksamhet Geriatrik" edasField="MGER" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000001034" name="Verksamhet Hud- och könssjukvård" edasField="MHUD" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002266" name="Verksamhet Medicin, Geriatrik och Akutmottagning Östra" edasField="MK" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000774" name="Verksamhet Kirurgi Sahlgrenska" edasField="MKIR" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000740" name="Verksamhet Medicin och akutsjukvård Mölndal" edasField="MMED" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000977" name="Verksamhet Neurosjukvård" edasField="MNEU" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000748" name="Verksamhet Psykiatri kognition och äldrepsykiatri" edasField="MNPS" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000003990" name="Verksamhet Ortopedi" edasField="MORT" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000011745" name="Verksamhet Psykiatri Affektiva" edasField="MPSA" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000011745" name="Verksamhet Psykiatri Affektiva" edasField="MPSE" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000008517" name="Verksamhet Psykiatri Psykos" edasField="MPSI" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000008517" name="Verksamhet Psykiatri Psykos" edasField="MPSP" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000742" name="Verksamhet Geriatrik Mölndal" edasField="MSM" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000977" name="Verksamhet Neurosjukvård" edasField="NEU" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000977" name="Verksamhet Neurosjukvård" edasField="NEUR" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000777" name="Verksamhet Njurmedicin" edasField="NJUR" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000008934" name="Verksamhet Lungmedicin allergologi och palliativ medicin" edasField="NLOG" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000977" name="Verksamhet Neurosjukvård" edasField="NPS" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000015113" name="Verksamhet Specialistmedicin" edasField="OBES" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002263" name="Verksamhet Anestesi Operation IVA Östra" edasField="ODON" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000742" name="Verksamhet Geriatrik Mölndal" edasField="OGER" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000979" name="Verksamhet Ögonsjukvård" edasField="OGON" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000001715" name="Verksamhet Onkologi" edasField="ONKA" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000001715" name="Verksamhet Onkologi" edasField="ONKG" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000003990" name="Verksamhet Ortopedi" edasField="ORT" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000003990" name="Verksamhet Ortopedi" edasField="ORTS" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000011661" name="Verksamhet Plastikkirurgi" edasField="PLK" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000001715" name="Verksamhet Onkologi" edasField="PONK" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000011745" name="Verksamhet Psykiatri Affektiva" edasField="PS" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000011745" name="Verksamhet Psykiatri Affektiva" edasField="PSCV" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000011745" name="Verksamhet Psykiatri Affektiva" edasField="PSCÖ" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000011745" name="Verksamhet Psykiatri Affektiva" edasField="PSDM" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000011745" name="Verksamhet Psykiatri Affektiva" edasField="PSLG" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000011745" name="Verksamhet Psykiatri Affektiva" edasField="PSMT" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000008517" name="Verksamhet Psykiatri Psykos" edasField="PSNU" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000001034" name="Hud- och könssjukvård" edasField="PSO" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000008517" name="Verksamhet Psykiatri Psykos" edasField="PSPT" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000001052" name="Verksamhet Reumatologi" edasField="REU" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002274" name="Verksamhet Rättspsykiatri" edasField="RPV" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000008934" name="Verksamhet Lungmedicin allergologi och palliativ medicin" edasField="RSEK" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000015112" name="Verksamhet Akutmedicin och geriatrik" edasField="SGER" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000774" name="Verksamhet Kirurgi Sahlgrenska" edasField="SKIR" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000015113" name="Verksamhet Specialistmedicin" edasField="SMED" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000015113" name="Verksamhet Specialistmedicin" edasField="SM-K" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000771" name="Verksamhet Anestesi, operation och intensivvård Sahlgrenska" edasField="SSM" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000979" name="Verksamhet Ögonsjukvård" edasField="SYN" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000004088" name="Verksamhet Transplantationscentrum" edasField="TRPL" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000980" name="Verksamhet Öron- Näs och Halssjukvård" edasField="TVA" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000940" name="Verksamhet Urologi" edasField="URO" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000001034" name="Verksamhet Hud- och könssjukvård" edasField="VEN" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000001034" name="Verksamhet Hud- och könssjukvård" edasField="YD" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000001034" name="Verksamhet Hud- och könssjukvård" edasField="ÖHUD" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002269" name="Verksamhet Kirurgi Östra" edasField="ÖKIR" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002266" name="Verksamhet Medicin, Geriatrik och Akutmottagning Östra" edasField="ÖMED" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000980" name="Verksamhet Öron- Näs och Halssjukvård" edasField="ÖNHK" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000980" name="Verksamhet Öron- Näs och Halssjukvård" edasField="ÖNHM" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000980" name="Verksamhet Öron- Näs och Halssjukvård" edasField="ÖNHS" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000980" name="Verksamhet Öron- Näs och Halssjukvård" edasField="ÖNHÖ" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000003990" name="Verksamhet Ortopedi" edasField="ÖORT" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000011745" name="Verksamhet Psykiatri Affektiva" edasField="ÖPS" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000011745" name="Verksamhet Psykiatri Affektiva" edasField="ÖPSE" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002263" name="Verksamhet Anestesi Operation IVA Östra" edasField="ÖSM" />
+  </masterValueCatalog>
+
+  <masterValueCatalog name="Kategori-SU2" defaultOid="1.2.752.113.18.999.8" defaultCode="KAT110" defaultName="Äldre journal">
+    <mvcItem oid="1.2.752.113.18.999.8" code="KAT110" name="Äldre journal" edasField="0001" />
+  </masterValueCatalog>
+
+  <masterValueCatalog name="Underkategori-SU2" defaultOid="1.2.752.113.18.999.3" defaultCode="KAT110-010" defaultName="Äldre journal">
+    <mvcItem oid="1.2.752.113.18.999.3" code="KAT110-010" name="Äldre journal" edasField="0001" />
+  </masterValueCatalog>
+
+  <masterValueCatalog name="Dokumenttyp-SU2" defaultOid="1.2.752.113.18.999.10" defaultCode="0073" defaultName="Remiss - inkommande">
+    <mvcItem oid="1.2.752.113.18.999.10" code="0073" name="Remiss - inkommande" edasField="0001" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0141" name="Brev" edasField="0002" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0072" name="Remissvar" edasField="0003" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0149" name="Begäran om journalkopia" edasField="0004" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0150" name="Extern journalkopia" edasField="0005" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0150" name="Extern journalkopia" edasField="0007" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0001" name="Läkemedelsbehandling" edasField="0008" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0001" name="Läkemedelsbehandling" edasField="0009" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0001" name="Läkemedelsbehandling" edasField="0010" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0001" name="Läkemedelsbehandling" edasField="0011" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0008" name="Licensansökan" edasField="0012" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0151" name="Protokoll för bestämmande av människans död" edasField="0013" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0175" name="Undersökningsjournal inklusive omvårdnad" edasField="0014" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0013" name="Övervakning AnOpIVA" edasField="0015" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0012" name="Anestesi/postopjournal" edasField="0016" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0015" name="Batchlista operation" edasField="0017" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0017" name="Implantatöversikt" edasField="0020" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0013" name="Övervakning AnOpIVA" edasField="0021" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0165" name="Handräckningsbegäran" edasField="0022" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0127" name="Dialysbehandling" edasField="0023" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0022" name="Cytologi" edasField="0024" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0032" name="Blodgasanalys" edasField="0026" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0031" name="Kliniska kemi" edasField="0030" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0023" name="Obduktion" edasField="0034" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0025" name="Patologi" edasField="0035" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0040" name="Blodgruppering" edasField="0036" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0039" name="Transfusion" edasField="0037" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0047" name="Arbets-EKG" edasField="0038" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0056" name="Njurfunktionsundersökning" edasField="0039" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0057" name="Pacemaker/ICD-avläsning" edasField="0040" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0066" name="Undersökning av centrala nervsystemet" edasField="0041" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0060" name="Ultraljud hjärta" edasField="0042" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0053" name="Lungfunktionsundersökning" edasField="0045" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0061" name="Ultraljud kärl" edasField="0047" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0064" name="PET" edasField="0049" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0179" name="Underlag inför radiologisk undersökning" edasField="0050" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0070" name="Radiologi/ultraljud" edasField="0052" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0175" name="Undersökningsjournal inklusive omvårdnad" edasField="0053" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0070" name="Radiologi/ultraljud" edasField="0054" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0077" name="Remiss - antikoagulation" edasField="0055" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0075" name="Remissbekräftelse" edasField="0057" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0076" name="Konferensunderlag" edasField="0060" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0104" name="Kontroll-/övervakningslista" edasField="0061" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0044" name="Långtidsblodtrycksmätning" edasField="0062" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0038" name="Mikrobiologi" edasField="0063" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0014" name="Operationsjournal" edasField="0065" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0099" name="Kognitiv bedömning/utredning" edasField="0066" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0120" name="Hälsodeklaration" edasField="0068" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0186" name="Mobil intensivvårdsgrupp (MIG)" edasField="0069" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0104" name="Kontroll- och övervakningsjournal" edasField="0070" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0114" name="Strokebedömning" edasField="0071" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0035" name="Rotem/TEG graf" edasField="0073" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0112" name="Vätskebalans" edasField="0074" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0088" name="Ögonbottenfotobedömning" edasField="0075" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0124" name="Akutjournal" edasField="0076" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0125" name="Ambulansjournal" edasField="0077" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0126" name="Behandlingsjournal" edasField="0078" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0126" name="Behandlingsjournal" edasField="0079" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0009" name="Biverkningsrapport" edasField="0080" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0137" name="Checklista" edasField="0081" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0096" name="Skattnings-/frågeformulär" edasField="0082" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0137" name="Checklista" edasField="0083" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0137" name="Checklista" edasField="0084" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0138" name="Nutritionsjournal" edasField="0085" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0143" name="Kvalitetsregister" edasField="0086" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0144" name="Smittskyddsanmälan" edasField="0087" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0154" name="Dödorsaksintyg/bevis" edasField="0089" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0154" name="Dödorsaksintyg/bevis" edasField="0090" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0153" name="Intyg/utlåtande" edasField="0091" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0153" name="Intyg/utlåtande" edasField="0092" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0153" name="Intyg/utlåtande" edasField="0093" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0153" name="Intyg/utlåtande" edasField="0094" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="6004" name="Patienttillhörigheter" edasField="0096" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0163" name="Vårdintyg" edasField="0097" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="6003" name="Specialistvårdsremiss/Betalningsförbindelse" edasField="0099" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0156" name="Donation " edasField="0100" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0174" name="Ej skanningsbart material" edasField="0101" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0172" name="Foto" edasField="0102" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0173" name="Radiologi/Ultraljudsbild" edasField="0103" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0074" name="Remiss - utgående" edasField="0104" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0059" name="Perifer Cirkulationsmätning " edasField="0105" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0121" name="Endoskopiundersökning" edasField="0107" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0027" name="Genetik" edasField="0108" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0065" name="Scintigrafi" edasField="0110" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0001" name="Läkemedelsbehandling" edasField="0112" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0157" name="Vårdplan" edasField="0114" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0153" name="Intyg/utlåtande" edasField="0115" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0028" name="Immunologi" edasField="0117" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0119" name="Undersökning vid misshandel/sexuella övergrepp" edasField="0118" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0101" name="Konditionstest" edasField="0119" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0096" name="Skattnings-/frågeformulär" edasField="0120" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0007" name="Vaccination" edasField="0122" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0003" name="Läkemedelsbeställning" edasField="0123" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0029" name="Vävnadstypning" edasField="0124" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0058" name="Sömnregistrering" edasField="0125" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0142" name="Anmälan till socialtjänsten" edasField="0126" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0043" name="Övriga analyssvar" edasField="0128" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0153" name="Intyg/utlåtande" edasField="0129" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0071" name="Bentäthetsmätning" edasField="0130" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0138" name="Nutritionsjournal" edasField="0133" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0013" name="Övervakning AnOpIVA" edasField="0134" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0126" name="Behandlingsjournal" edasField="0135" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0124" name="Akutjournal" edasField="0137" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0158" name="Fullmakt/samtycke" edasField="0138" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0052" name="Långtids EKG" edasField="0140" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="6007" name="Trafikskadejournal" edasField="0141" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0131" name="Standardvårdplan" edasField="0143" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0055" name="NIE" edasField="0146" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0006" name="Cytostatikabehandling" edasField="0147" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0011" name="Operationsanmälan" edasField="0148" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0041" name="Transfusionsmedicinsk analys" edasField="0149" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0175" name="Undersökningsjournal inklusive omvårdnad" edasField="0150" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0073" name="Remiss - inkommande" edasField="0151" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0113" name="Neurologisk status" edasField="0153" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0104" name="Kontroll- och övervakningsjournal" edasField="0154" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0127" name="Dialysbehandling" edasField="0155" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0006" name="Cytostatikabehandling" edasField="0156" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0054" name="Tilttest" edasField="0157" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0133" name="Vårdkonferens" edasField="0158" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0052" name="Långtids EKG" edasField="0159" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0189" name="Ablationsjournal" edasField="0160" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0006" name="Cytostatikabehandling" edasField="0161" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0191" name="Transkutan mätning" edasField="0163" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0158" name="Fullmakt/samtycke" edasField="0164" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0013" name="Övervakning AnOpIVA" edasField="0165" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0038" name="Mikrobiologi" edasField="0166" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0031" name="Klinisk kemi" edasField="0168" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0177" name="Elkonverteringsjournal" edasField="0169" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0001" name="Läkemedelsbehandling" edasField="0170" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0052" name="Långtids EKG" edasField="0172" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0187" name="Venkateterisering" edasField="0173" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0060" name="Ultraljud hjärta" edasField="0174" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0001" name="Läkemedelsbehandling" edasField="0175" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0013" name="Övervakning AnOpIVA" edasField="0176" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0036" name="Glukosmätning" edasField="0178" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0014" name="Operationsjournal" edasField="0179" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0128" name="Hjärt- och lungräddning (HLR)" edasField="0181" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0113" name="Neurologisk status" edasField="0182" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0123" name="Andningshjälpmedel" edasField="0187" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0004" name="Läkemedelspump" edasField="0188" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0109" name="Led- och motorikstatus" edasField="0190" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0067" name="Undersökning av perifera nervsystemet" edasField="0192" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0031" name="Klinisk kemi" edasField="0194" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0096" name="Skattnings/frågeformulär" edasField="0195" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0127" name="Dialysbehandling" edasField="0198" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0127" name="Dialysbehandling" edasField="0199" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0102+0103" name="Ortostatisk blodtrycksmätning + Blodtrycksmätning" edasField="0202" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0155" name="Ordination/Beställning av hjälpmedel" edasField="0204" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0138" name="Nutritionsjournal" edasField="0206" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0108" name="Symtomregistrering " edasField="0207" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0108" name="Symtomregistrering " edasField="0208" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0178" name="Vätgastest" edasField="0211" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0166" name="Beslut från domstol" edasField="0215" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0079" name="Strålanmälan" edasField="0216" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0130" name="Strålbehandlingsjournal" edasField="0217" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0190" name="Protesinställning" edasField="0218" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0192" name="Aferes fotoferes" edasField="0219" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0030" name="Stamcellslab" edasField="0221" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0193" name="Exponeringsutredning" edasField="0223" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0118" name="Suicidriskbedömning" edasField="0224" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0140" name="Ventrikeltömning" edasField="0225" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0089" name="Audiometri" edasField="0226" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0194" name="Isotopbehandling" edasField="0227" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0049" name="Ergospirometri" edasField="0228" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0107" name="Miktionsutredning" edasField="0229" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0194" name="Isotopbehandling" edasField="0230" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0081" name="Axellängdsmätning/biometri" edasField="0231" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0080" name="Synfältsundersökning" edasField="0232" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0085" name="Färgsinneundersökning" edasField="0233" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0181" name="OCT" edasField="0234" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0082" name="Lees skärm" edasField="0235" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0080" name="Synfältsundersökning" edasField="0236" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0098" name="Korneal topografi" edasField="0239" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0068" name="Synelektrofysiologisk undersökning" edasField="0241" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0086" name="Amotiokarta" edasField="0243" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0146" name="Anmälan och beslut Socialstyrelsen" edasField="0244" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0129" name="Beslut om tillbakahållande av behandling" edasField="0245" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0109" name="Led- och motorikstatus" edasField="0246" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0002" name="Batchnummer läkemedel" edasField="0247" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0001" name="Läkemedelsbehandling" edasField="0248" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0021" name="Operationsskiss" edasField="0249" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0183" name="Sensibilitetsstatus" edasField="0250" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0122" name="Akustisk analys" edasField="0252" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0093" name="Rhinomanometri" edasField="0253" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0045" name="Långtids pH-mätning" edasField="0254" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0050" name="Esofagusmanometri" edasField="0255" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0083" name="Synskärpeundersökning" edasField="0257" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0087" name="Mörkeradaption" edasField="0258" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0024" name="Spermaanalys" edasField="0259" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0081" name="Axellängdsmätning/biometri" edasField="0260" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0100" name="Språkutredning " edasField="0261" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0100" name="Språkutredning " edasField="0262" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0169" name="Tvångsåtgärder" edasField="0263" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0194" name="Isotopbehandling" edasField="0264" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0132" name="Hyposensibilisering" edasField="0265" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0105" name="Allergenprovokation" edasField="0266" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0094" name="Otoakustiska emissioner (OAE)" edasField="0268" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0051" name="LP-EKG" edasField="0270" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0053" name="Lungfunktionsundersökning" edasField="0271" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0016" name="IVA-rapport" edasField="0272" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0019" name="ECT" edasField="0274" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0161" name="Underställning enligt LPT" edasField="0275" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0164" name="Rättspsykiatriskt utlåtande Rättsmedicinalverket" edasField="0276" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0159" name="Ansökan enligt LPT" edasField="0277" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0167" name="Beslut enligt LVM" edasField="0278" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0162" name="Inrapporteringsformulär belastningsregistret" edasField="0279" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0018" name="Transplantatöversikt" edasField="0280" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0160" name="Beslutsöversikt LPT" edasField="0281" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0115" name="Kroppssammansättning" edasField="0282" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0116" name="Tillväxtkurva" edasField="0283" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0046" name="Anorektal manometri" edasField="0284" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0062" name="CTG-kurva" edasField="0285" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0136" name="Teckning/skiss" edasField="0286" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0168" name="Beslut enligt LVU" edasField="0287" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0095" name="Lukt- och smakutredning" edasField="0288" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0111" name="Hudstatus" edasField="0289" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0042" name="PKU-prov " edasField="0290" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0176" name="Embryoanalys" edasField="0291" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0111" name="Hudstatus" edasField="0293" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0092" name="Videonystagmografi (VNG)" edasField="0295" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0053" name="Lungfunktionsundersökning" edasField="0299" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="8888" name="Oidentifierade dokument" edasField="0888" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="8889" name="Skannas inte" edasField="0889" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0048" name="EKG" edasField="2222" />
+    <mvcItem oid="1.2.752.113.18.999.10" code="0182" name="EKG (manuellt)" edasField="M222" />
+  </masterValueCatalog>
+
+  <masterValueCatalog name="Enhet-SU2" >
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000757" name="Akutmottagning Mölndal" edasField="AKUT01" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002771" name="Akutmottagning Sahlgrenska" edasField="AKUT02" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002286" name="Akutmottagning Östra" edasField="AKUT03" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000014476" name="Akutmottagning för gravida och nyförlösta" edasField="AKUTOB" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000001760" name="Allergimottagning Sahlgrenska" edasField="ALL01" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000006411" name="SU Ambulans" edasField="AMB01" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000012136" name="Anestesi 1 och 2 Sahlgrenska" edasField="AN01" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000903" name="Operation 1 Mölndal" edasField="ANOP01" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000904" name="Operation 3 Mölndal" edasField="ANOP03" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002280" name="Operation 1 Östra" edasField="ANOP08" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002279" name="Operation 2 Östra" edasField="ANOP09" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000015975" name="Operation 4 Mölndal" edasField="ANOP10" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-F000000001684" name="Mottagning för gravida och nyförlösta Östra" edasField="ANTE02" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000001084" name="Arbetsterapi Mölndal" edasField="ARB02" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000001086" name="Arbetsterapi Sahlgrenska" edasField="ARB03" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000001087" name="Arbetsterapi Östra" edasField="ARB04" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000010782" name="Arbetsterapi och fysioterapi Högsbo" edasField="ARBSG1" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000016071" name="Arbetsterapi och fysioterapi barn" edasField="ARBSG2" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000006590" name="Arkiv och informationsstruktur" edasField="ARKIV1" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000007305" name="Akutmottagning Barn " edasField="BAKUT1" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000803" name="Allergi- lung- och cystisk fibrosmottagning barn" edasField="BALL01" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000001032" name="Operation 1 Barn" edasField="BANOP1" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000001762" name="Operation 2 Barn" edasField="BANOP2" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000010163" name="Avdelning 310 BB" edasField="BB03" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000010166" name="Avdelning 311 BB" edasField="BB04" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000855" name="Avdelning 315 special-BB Östra" edasField="BB05" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-F000000001997" name="Amningsmottagning Östra" edasField="BB06" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-F000000001755" name="Auroramottagning Östra" edasField="BB08" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-F000000001781" name="BB-mottagning Östra" edasField="BB09" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000013941" name="BB-avdelning 1" edasField="BB10" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000805" name="Dietistmottagning barn" edasField="BDIE01" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002404" name="Substitution dagvård" edasField="BER02" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000006494" name="Avdelning 368" edasField="BER03" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002414" name="Avdelning 609 dagvård beroende" edasField="BER04" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002422" name="Avdelning 367" edasField="BER05" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002411" name="Avdelning Nordhem" edasField="BER06" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000004087" name="Avdelning 364 beroende unga vuxna" edasField="BER07" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002413" name="Beroendemottagning Hisingen" edasField="BER09" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002415" name="Beroendemottagning Olskroken" edasField="BER10" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002412" name="Beroendemottagning kvinnor" edasField="BER11" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002409" name="Mini-Maria Centrum" edasField="BER14" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000006755" name="Mini-Maria Hisingen" edasField="BER15" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000006756" name="Mini-Maria Nordost" edasField="BER16" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002410" name="Nordhemskliniken" edasField="BER20" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000007385" name="Körkortsmottagning Nordhem" edasField="BER21" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000008433" name="Regional substitutionsmottagning" edasField="BER22" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000010834" name="Avdelning 364 tillnyktringsenhet" edasField="BER25" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000006494" name="Avdelning 368" edasField="BER27" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-F000000001823" name="Substitutionsmottagning 2 Högsbo" edasField="BER28" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-F000000001700" name="Substitutionsmottagning 1 Högsbo" edasField="BER29" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-F000000001699" name="Substitutionsmottagning Östra" edasField="BER30" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000014927" name="Mottagning för spelberoende och skärmhälsa" edasField="BER32" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000014982" name="ACT-mottagning Göteborg" edasField="BER33" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000015330" name="Substitutionsmottagning Olskroken" edasField="BER34" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000016884" name="Avdelning 365 beroende Östra" edasField="BER35" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000815" name="Regionhabilitering - Habilitering" edasField="BHAB01" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000814" name="Regionhabilitering - Omvårdnad-UroTarm" edasField="BHAB02" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000001009" name="DART" edasField="BHAB03" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000001033" name="Intensivvårdsavdelning barn" edasField="BIVA01" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000810" name="Barnhjärtcentrum avdelning" edasField="BKAR01" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000811" name="Barnhjärtcentrum mottagning" edasField="BKAR02" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000010565" name="Barnhjärtcentrum dagsjukvård" edasField="BKAR03" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000008890" name="Kirurgiavdelning barn" edasField="BKIR01" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000007306" name="Akut korttidsavdelning barn" edasField="BKIR03" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000007456" name="Barnkirurgi Trauma" edasField="BKIR04" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000010520" name="Kirurgimottagning Barn" edasField="BKIR05" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-F000000000334" name="Urinvägsmottagning kirurgi barn" edasField="BKIR06" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000010178" name="Uro-, tarm- och stomimottagning Barn" edasField="BKIR07" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000007307 " name="Kuratorsmottagning Barn" edasField="BKUR01" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000001011" name="Logopedimottagning barn och ungdom " edasField="BLOG01" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000001767" name="Medicinavdelning barn" edasField="BMED01" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000001765" name="Medicin dagsjukvård barn" edasField="BMED03" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000001766 " name="Endokrinmottagning Barn" edasField="BMED04" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000803 " name="Allergi- lung- och cystisk fibrosmottagning barn " edasField="BMED05" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000804" name="Diabetesmottagning Barn" edasField="BMED06" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000806 " name="Regionalt obesitascentrum barn" edasField="BMED07" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000010519" name="Infektionsmottagning barn" edasField="BMED08" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-F000000000335" name="Urinvägsmottagning Medicin Barn" edasField="BMED09" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000010374 " name="Mag- tarm- och levermottagning barn" edasField="BMED10" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-F000000001951" name="Reumatologi- och Immunologimottagning Barn" edasField="BMED11" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000011576" name="Centrum för sällsynta diagnoser Väst" edasField="BMED12" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000014452" name="Hemangiommottagning barn" edasField="BMED13" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000014450" name="Metabolmottagning barn" edasField="BMED14" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000016809 " name="Smärta mottagning barn" edasField="BMED15" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000817" name="Intensivvårdsavdelning neonatal 317" edasField="BNEO01" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000818 " name="Avdelning 309 Neonatal" edasField="BNEO02" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000010427 " name="Neonatalmottagning Östra" edasField="BNEO03" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-F000000001466" name="Neonatal sjukvård i hemmet" edasField="BNEO04" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000001008 " name="Neurologimottagning barn" edasField="BNEU01" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000001006" name="Neuropsykiatrisk mottagning barn och ungdom " edasField="BNEU02" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000015378" name="Barncancercentrum avdelning 1 " edasField="BONK03" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000015379" name="Barncancercentrum avdelning 2" edasField="BONK04" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000016130 " name="Barncancercentrum dagsjukvård" edasField="BONK05" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000016155 " name="Barncancercentrum mottagning" edasField="BONK06" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000004292 " name="Psykologmottagning barn" edasField="BPSY01" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000016071" name="Arbetsterapi och fysioterapi barn" edasField="BSGY01" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000001023" name="Akutavdelning barn- och ungdomspsykiatri " edasField="BUP01" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000001025" name="Ätstörningscentrum barn och unga vuxna avdelning" edasField="BUP02" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000001028" name="BUP korttidsvårdsavdelning Slottis" edasField="BUP03" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000001029" name="BUP Specialmottagning" edasField="BUP04" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000001024 " name="Ätstörningscentrum barn och unga vuxna mottagning" edasField="BUP06" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000001015" name="BUP-mottagning Frölunda" edasField="BUP07" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000001021" name="BUP-mottagning Gamlestaden" edasField="BUP08" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000001016" name="BUP-mottagning Hisingen" edasField="BUP09" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000001019" name="BUP-mottagning Kungshöjd" edasField="BUP10" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000001020" name="BUP-mottagning Krokslätt" edasField="BUP11" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000008013 " name="BUP Barnahus" edasField="BUP12" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000001026" name="BUP DBT-mottagning" edasField="BUP13" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000001021" name="BUP-mottagning Gamlestaden" edasField="BUP14" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000014822" name="Nybesöksteamet BUP Drottninggatan" edasField="BUP15" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000014823" name="Utredningsteamet BUP Drottninggatan" edasField="BUP16" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000014824" name="SURF-teamet BUP Drottninggatan" edasField="BUP17" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000014825" name="Gruppbehandling BUP Drottninggatan" edasField="BUP18" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000016619" name="En väg in - barn och unga med psykisk ohälsa" edasField="BUP20" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000016851" name="Mobilt team BUP" edasField="BUP21" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002761" name="Dietistmottagning klinisk nutrition Sahlgrenska" edasField="DIE02" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000016579" name="Dietistmottagning medicin Östra" edasField="DIE03" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000010160" name="Avdelning 308 Förlossning" edasField="FÖRL02" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000009367 " name="Avdelning 314 Förlossning" edasField="FÖRL03" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000012537" name="Avdelning 312 Förlossning" edasField="FÖRL04" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000867 " name="Avdelning 234" edasField="GER01" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000003812" name="Avdelning 235" edasField="GER02" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000014447" name="Avdelning 237 Getiatrik" edasField="GER03" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002317" name="Osteoporosmottagning Mölndal" edasField="GER04" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000006983" name="Avdelning 21 geriatrik Sahlgrenska" edasField="GER05" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002659" name="Avdelning 5 palliativ vård" edasField="GER06" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000008641 " name="ASIH Högsbo" edasField="GER07" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002650" name="Neurologopedi" edasField="GER08" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000008146" name="Palliativt centrum Högsbo" edasField="GER09" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000011688" name="Avdelning 34 akutgeriatrik" edasField="GER10" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000012085" name="Närsjukvårdsteam Mölndal" edasField="GER12" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000929" name="Avdelning 68 gynekologi" edasField="GYN01" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000930" name="Avdelning 67 gynekologi" edasField="GYN02" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-F000000001770" name="Avdelning 313" edasField="GYN03" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000933 " name="Gynekologimottagning Sahlgrenska " edasField="GYN04" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-F000000001772" name="Gynekologimottagning Östra" edasField="GYN05" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000937" name="Reproduktionsmedicinsk mottagning Sahlgrenska " edasField="GYN06" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000931" name="Akutmottagning gynekologi Sahlgrenska" edasField="GYN07" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-F000000001771" name="Gynekologi Dagkirurgi Östra" edasField="GYN08" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000011615" name="Avdelning 233 handkirurgi Mölndal" edasField="HAND01" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000011617 " name="Avdelning 27 handkirurgi barn" edasField="HAND02" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000011616" name="Handkirurgisk dagkirurgimottagning" edasField="HAND03" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000959" name="Handkirurgimottagning Mölndal" edasField="HAND04" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000007287 " name="Syncentral Göteborg" edasField="HOH17" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000015030 " name="Audionommottagning Göteborg" edasField="HOH19" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000015031" name="Hörselteam Göteborg" edasField="HOH20" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000011923 " name="Alternativ telefoni Göteborg" edasField="HOH21" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-F000000001221 " name="Dövblindteam Göteborg" edasField="HOH22" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-F000000001222" name="Dövteam Göteborg" edasField="HOH23" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000001035" name="Hud dagsjukvård" edasField="HUD01" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000001040" name="Hudmottagning Sahlgrenska" edasField="HUD02" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-F000000000514" name="Könsmottagning Sahlgrenska" edasField="HUD03" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000001740" name="Hudbehandlingsmottagning Sahlgrenska" edasField="HUD04" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000001039" name="Arbets- och miljödermatologisk mottagning Sahlgrenska" edasField="HUD05" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000011772" name="Intervention 1 Sahlgrenska" edasField="HYBI01" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000012597 " name="Intervention 2 Sahlgrenska" edasField="HYBI02" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002310" name="Avdelning 301" edasField="INF01" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002309" name="Avdelning 302 IVA" edasField="INF02" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002308" name="Avdelning 303" edasField="INF03" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002307" name="Avdelning 304" edasField="INF04" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002306" name="Infektionsmottagning Östra" edasField="INF05" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000902" name="Intensivvårdsavdelning 227" edasField="IVA01" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002705" name="Central intensivvårdsavdelning" edasField="IVA02" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002169" name="Avdelning 92 kardiologi Sahlgrenska" edasField="KARD01" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000006187" name="Avdelning 13 hjärtavdelning Sahlgrenska" edasField="KARD02" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002170" name="Hjärtmottagning Sahlgrenska " edasField="KARD03" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002171" name="Intervention 3 Sahlgrenska" edasField="KARD04" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000006820" name="Forskningsenhet" edasField="KARD05" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000009912" name="Avdelning 26 hjärtdagsjukvård Sahlgrenska" edasField="KARD06" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000015916" name="Avdelning 93 hjärtintensivvårdsavdelning Sahlgrenska" edasField="KARD09" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000006816" name="Kirurgimottagning Sahlgrenska" edasField="KIR01" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000963" name="Kirurgiavdelning 136 Sahlgrenska" edasField="KIR02" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002291" name="Kirurgimottagning 1 Östra" edasField="KIR04" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000964" name="Kirurgiavdelning 137 Sahlgrenska" edasField="KIR05" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002288" name="Kolorektalmottagning Östra" edasField="KIR06" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000004033" name="Avdelning 132 kirurgi Sahlgrenska" edasField="KIR07" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002301" name="Stomimottagning Östra" edasField="KIR08" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002289" name="Avdelning 348 B" edasField="KIR10" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002295" name="Avdelning 350" edasField="KIR11" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002293" name="Avdelning 351 kirurgi Östra" edasField="KIR12" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000015135" name="Forskningsmottagning Kirurgi Sahlgrenska" edasField="KIR17" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000015540" name="Kirurgimottagning 2 Östra" edasField="KIR18" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-F000000001465" name="Klinisk genetik mottagning" edasField="KLING" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-F000000001039" name="Klinisk genetik mottagning" edasField="KLING2" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000989" name="Klinisk neurofysiologimottagning Sahlgrenska" edasField="KNF01" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002386" name="Kuratorsmottagning medicin geriatrik och akutmottagning Östra" edasField="KUR01" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002300" name="Kuratorsmottagning Kirurgi Östra" edasField="KUR03" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000006361" name="Kuratorsmottagning Mölndal" edasField="KUR06" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000001042" name="Kuratorsmottagning hud- och könssjukvård Sahlgrenska" edasField="KUR07" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002311" name="Kuratorsmottagning Infektion Östra" edasField="KUR08" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000007060" name="Kuratorsmottagning kirurgi och njurmedicin Sahlgrenska" edasField="KUR09" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000001055" name="Kuratorsmottagning reumatologi Sahlgrenska" edasField="KUR11" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-F000000000487" name="Kuratorsenhet kvinnosjukvård Sahlgrenska" edasField="KUR12" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-F000000000486" name="Kuratorsmottagning kvinnosjukvård Östra" edasField="KUR13" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000003518" name="Avdelning 138 kärlkirurgi" edasField="KÄRL01" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000010560" name="Kärlkirurgimottagning Sahlgrenska" edasField="KÄRL02" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000971" name="Avdelning 20" edasField="LUNG01" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000009304" name="Cystisk fibrosmottagning Sahlgrenska" edasField="LUNG02" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000973" name="Lungmottagning Sahlgrenska" edasField="LUNG03" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000001759" name="Sömnmedicinsk avdelning" edasField="LUNG04" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002162" name="Administrativ enhet externa rehabprogram" edasField="LUNG05" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000010454" name="Lungdiagnostisk mottagning Sahlgrenska" edasField="LUNG06" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000010455" name="Lungonkologisk mottagning Sahlgrenska" edasField="LUNG08" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000010456" name="Lungutredningsmottagning Sahlgrenska" edasField="LUNG09" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000011747" name="KOL-mottagning Sahlgrenska" edasField="LUNG10" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000011748" name="KOL- forskningsmottagning Sahlgrenska" edasField="LUNG11" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000016786" name="Palliativt resursteam Högsbo" edasField="LUNG12" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002389" name="Avdelning 352" edasField="MED01" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002393" name="Avdelning 353 Hematologi och trombos" edasField="MED03" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002390" name="Avdelning 354 stroke" edasField="MED04" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002391" name="Avdelning 355 diabetes endokrin" edasField="MED06" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000009235" name="Avdelning 356A" edasField="MED07" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002398" name="Avdelning 357" edasField="MED08" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002400" name="GUCH-centrum" edasField="MED09" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002388" name="Medicinmottagning 1 Östra" edasField="MED10" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002394" name="Hematologimottagning Östra" edasField="MED11" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002399" name="Medicinmottagning 2 Östra" edasField="MED12" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000001723" name="Avdelning 236" edasField="MED14" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000009661" name="Avdelning 238 Kardiologi" edasField="MED15" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000001721" name="Avdelning 239" edasField="MED16" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000749" name="Medicinmottagning Mölndal" edasField="MED17" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002728" name="Avdelning 90 och 91" edasField="MED18" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000011716" name="Endokrin- och gastroavdelning 16 och 29 Sahlgrenska" edasField="MED20" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000008471" name="Avdelning 141" edasField="MED21" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000781" name="Gastroenterologisk endoskopimottagning Sahlgrenska" edasField="MED22" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000008470" name="Hematologimottagning Sahlgrenska " edasField="MED23" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000008257" name="Koagulationscentrum Sahlgrenska" edasField="MED24" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002766" name="Medicinmottagning Sahlgrenska" edasField="MED25" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002758" name="Arbets- och miljömedicinsk mottagning Sahlgrenska" edasField="MED26" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002395" name="Avdelning 356B" edasField="MED27" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002383" name="Forskningsenhet Medicin Östra" edasField="MED28" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-F000000001895" name="Benmärgstransplantationsmottagning Sahlgrenska" edasField="MED29" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000008450" name="Regionalt obesitascentrum" edasField="MED32" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000011716" name="Endokrin– och gastroavdelning 16 och 29 Sahlgrenska" edasField="MED33" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002290" name="Gastroenterologisk endoskopimottagning Östra" edasField="MED34" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000011980" name="Diagnostiskt centrum" edasField="MED35" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000008259" name="Avdelning 30 Medicin Sahlgrenska" edasField="MED36" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000014455" name="Tarmsviktcentrum" edasField="MED37" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000014447" name="Avdelning 237 Medicin" edasField="MED38" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000014509" name="Närsjukvårdsteam Östra" edasField="MED39" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000015032" name="Närsjukvårdsteam Sahlgrenska" edasField="MED40" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000015839" name="Avdelning 19 och 32 medicin- och lungavdelning" edasField="MED42" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000016580" name="Diabetes- och endokrinmottagning Östra" edasField="MED43" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000016578" name="Hjärtmottagning Östra" edasField="MED44" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000016582" name="Mag- tarm- och levermottagning Östra" edasField="MED45" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000016577" name="Pacemakermottagning Östra" edasField="MED46" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000016581" name="Strokemottagning Östra" edasField="MED47" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000016573" name="Uppföljningsmottagning Covid-19 Östra" edasField="MED48" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000016574" name="Uppföljningsmottagning medicin Östra" edasField="MED49" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000016576" name="Trombosmottagning Östra" edasField="MED50" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-F000000002236" name="Endoskopimottagning Mölndal" edasField="MED51" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-F000000002163" name="Hjärtmottagning Mölndal" edasField="MED52" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000001002" name="Avdelning 10 och 23" edasField="NEU01" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000007416" name="Avdelning 135 Stroke" edasField="NEU02" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000009285" name="Avdelning 133" edasField="NEU03" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000009970" name="Avdelning 134 Ryggmärgsskador" edasField="NEU04" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000995" name="Neurologimottagning Sahlgrenska" edasField="NEU05" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000999" name="Stroke Forum" edasField="NEU06" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000009776" name="Neurodagsjukvård Sahlgrenska" edasField="NEU07" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000001093" name="Avdelning 623" edasField="NEU08" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000001094" name="Rehabiliteringsmedicinsk mottagning Högsbo" edasField="NEU09" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000987" name="Neuro psykologer och kuratorer" edasField="NEU10" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-F000000001896" name="Neurokirurgimottagning Sahlgrenska" edasField="NEU11" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002688" name="Avdelning 131 Njurmedicin Sahlgrenska" edasField="NJUR01" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000013811" name="Dialysmottagning Mölndal" edasField="NJUR02" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002687" name="Dialysmottagning Sahlgrenska" edasField="NJUR03" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002689" name="Njurmottagning Sahlgrenska " edasField="NJUR04" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002690" name="Dialysmottagning peritonealdialys Sahlgrenska" edasField="NJUR05" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000006855" name="Dialysmottagning Östra" edasField="NJUR06" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000013811" name="Dialysmottagning Mölndal" edasField="NJUR08" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000013810" name="Dialysmottagning hem- och självdialys Mölndal" edasField="NJUR09" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000897" name="Avdelning 244" edasField="NP01" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000883" name="Avdelning 207" edasField="NP02" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000882" name="Avdelning 206" edasField="NP03" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000884" name="Omsorgspsykiatrisk mottagning" edasField="NP04" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000886" name="Minnesmottagning" edasField="NP05" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000885" name="Äldrepsykiatrisk mottagning" edasField="NP06" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000012821" name="Centrum för Huntingtons sjukdom" edasField="NP07" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000001728" name="Avdelning 52 onkologi Sahlgrenska" edasField="ONK02" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000010112" name="Avdelning 69 onkologi Sahlgrenska" edasField="ONK03" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000001729" name="Avdelning 54 onkologi Sahlgrenska" edasField="ONK04" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002292" name="Onkologimottagning Östra" edasField="ONK05" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000001726" name="Strålbehandling Sahlgrenska" edasField="ONK06" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000001727" name="Dagsjukvård onkologi Sahlgrenska" edasField="ONK07" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000008113" name="Strålbehandling Södra Älvsborgs sjukhus" edasField="ONK08" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000001737" name="Cancerrehabilitering" edasField="ONK09" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-F000000001709" name="Onkologimottagning 1 Sahlgrenska" edasField="ONK11" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-F000000000958" name="Onkologimottagning 2 Sahlgrenska" edasField="ONK12" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-F000000000792" name="Onkologimottagning 3 Sahlgrenska" edasField="ONK13" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000004003" name="Avdelning 233" edasField="ORHA01" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000010820" name="Centrum för avancerad rekonstruktion av extremiteter mottagning" edasField="ORHA02" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000003999" name="Avdelning 232" edasField="ORT01" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000003997" name="Avdelning 230" edasField="ORT02" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000004004" name="Ortopedimottagning Mölndal" edasField="ORT03" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000004001" name="Avdelning 15 och 28 Ortopedisk rygg- och tumörkirurgi" edasField="ORT04" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000003998" name="Avdelning 231" edasField="ORT05" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000004003" name="Avdelning 233" edasField="ORT06" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000004015" name="Forskningsenhet ortopedi" edasField="ORT07" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000004005" name="Ortopedimottagning Sahlgrenska" edasField="ORT08" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000004006" name="Ortopedimottagning Östra" edasField="ORT09" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000015303" name="Gånglaboratorium Mölndal" edasField="ORT10" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000011583" name="Prövningsenhet barn" edasField="PCRC01" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000011623" name="Avdelning 14 plastikkirurgi" edasField="PLK01" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000011625" name="Avdelning 27 plastikkirurgi barn" edasField="PLK02" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000011624" name="Avdelning 31 plastikkirurgi dagkirurgi" edasField="PLK03" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000001050" name="Plastikkirurgimottagning Sahlgrenska" edasField="PLK04" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002369" name="Avdelning 361" edasField="PSYK01" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000911" name="Avdelning 362" edasField="PSYK02" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000013880" name="Avdelning 363" edasField="PSYK03" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000909" name="Avdelning 365" edasField="PSYK04" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000005555" name="Avdelning 366" edasField="PSYK05" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002368" name="Avdelning 80 psykiatri Sahlgrenska" edasField="PSYK06" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000006352" name="Avdelning 86 psykiatri Sahlgrenska" edasField="PSYK09" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002708" name="Avdelning 242 psykos Mölndal" edasField="PSYK10" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002366" name="Avdelning 241" edasField="PSYK11" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002363" name="Avdelning 240 psykos Mölndal" edasField="PSYK12" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000009265" name="Avdelning 245" edasField="PSYK13" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002375" name="Psykiatrisk akutmottagning Östra" edasField="PSYK14 " />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000004243" name="Bipolärmottagning" edasField="PSYK15" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000913" name="Psykiatrimottagning Öckerö" edasField="PSYK23" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002379" name="Ätstörningsmottagning Högsbo" edasField="PSYK24" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000010397" name="Mottagning för personlighetssyndrom" edasField="PSYK25" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000008349" name="Psykiatri DoK-enhet Sahlgrenska" edasField="PSYK27" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000008349" name="Psykiatrisk mottagning för döva och hörselskadade" edasField="PSYK28" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000011726" name="Avdelning 618 anorexi och bulimi" edasField="PSYK29" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000010398" name="Neuropsykiatrimottagning Väster" edasField="PSYK30" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002710" name="Avdelning 607 Avancerad psykiatri i hemmet" edasField="PSYK32" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002361" name="Psykosmottagning Nordost" edasField="PSYK33" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002711" name="Psykosmottagning Väster" edasField="PSYK34" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000004241" name="Psykosmottagning Öster" edasField="PSYK35" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002718" name="Rehabiliteringsmottagning psykos" edasField="PSYK37" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000010544" name="Psykosmottagning Centrum" edasField="PSYK38" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000919" name="Psykosmottagning Mölndal" edasField="PSYK39" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000004240" name="Psykosmottagning Hisingen" edasField="PSYK41" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000010544" name="Psykiatrisk utredningsmottagning Mölndal" edasField="PSYK42" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000007863" name="FoU" edasField="PSYK43" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000010835" name="Affektiv mottagning 1" edasField="PSYK44" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000010836" name="Affektiv mottagning 2" edasField="PSYK45" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000010145" name="Mobila Fältteamet" edasField="PSYK46" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000012070" name="Psykiatrimottagning utmattningssyndrom" edasField="PSYK47" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000013363" name="Neuropsykiatrimottagning öster" edasField="PSYK48" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000014488" name="Avdelning 369" edasField="PSYK49" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000014950" name="Dagsjukvård psykiatri Sahlgrenska" edasField="PSYK50" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000014837" name="Dagsjukvård psykiatri Centrum" edasField="PSYK51" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000015669" name="Avdelning 81 och 82 psykiatri Sahlgrenska" edasField="PSYK52" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000015964" name="Lundströmmottagning Alingsås" edasField="PSYK53" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000007476" name="Avdelning 115 reumatologi" edasField="REUM01" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000001059" name="Reumatologimottagning Sahlgrenska" edasField="REUM02" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000001060" name="Reumatologimottagning Mölndal" edasField="REUM03" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000001057" name="Inflammationscentrum Sahlgrenska" edasField="REUM04" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002767" name="Radio Medical" edasField="RM01" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002356" name="Rättspsykiatrisk rehabenhet 2" edasField="RPE02" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002354" name="Rättspsykiatrisk rehabenhet 3" edasField="RPE03" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000010802" name="Rättspsykiatrisk utredningsenhet 4" edasField="RPE04" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000010801" name="Rättspsykiatrisk akutenhet 6" edasField="RPE06" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002352" name="Rättspsykiatrisk rehabenhet 7" edasField="RPE07" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002351" name="Rättspsykiatrisk rehabenhet 8" edasField="RPE08" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000006011" name="Rättspsykiatrisk öppenvårdsenhet" edasField="RPE09" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000001075" name="Fysioterapi Mölndal" edasField="SGY02" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000001079" name="Fysioterapi Sahlgrenska" edasField="SGY03" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000001080" name="Fysioterapi Östra" edasField="SGY04" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002396" name="Smärtcentrum 1 Östra" edasField="SMÄRT2" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002182" name="Avdelning 12 och 25 Thorax" edasField="THX01" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002188" name="Thoraxintensivavdelning" edasField="THX02" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002187" name="Operation 2 Sahlgrenska" edasField="THX03" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000010561" name="Thoraxmottagning Sahlgrenska" edasField="THX04" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000010561" name="Tryckkammare Östra" edasField="TKA01" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000004089" name="Avdelning 139 Transplantation" edasField="TRPL01" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000007468" name="Transplantationsmottagning Sahlgrenska" edasField="TRPL02" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000942" name="Urologiavdelning 31" edasField="URO01" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000944" name="Urologimottagning Sahlgrenska" edasField="URO02" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000015796" name="Organiserad prostatacancertestning" edasField="URO04" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000001103" name="Avdelning 205" edasField="ÖGON01" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000001104" name="Ögonmottagning Mölndal" edasField="ÖGON02" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000001107" name="Ögonmottagning barn" edasField="ÖGON03" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000001110" name="Ögonkirurgisk mottagning Mölndal" edasField="ÖGON04" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000001111" name="Operation 2 Mölndal" edasField="ÖGON05" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000001108" name="Neurooftalmologisk mottagning Sahlgrenska" edasField="ÖGON06" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000001106" name="Ögonmottagning Kungälv" edasField="ÖGON07" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000001593" name="Ögonmottagning Frölunda" edasField="ÖGON08" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000001115" name="Öron-, näs- och halsmottagning Sahlgrenska" edasField="ÖNH01" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000001114" name="Öron- näs- och halsavdelning 18" edasField="ÖNH02" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000001711" name="Logopedi- och foniatrimottagning Sahlgrenska" edasField="ÖNH03" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000016034" name="Hörsel- och balansmottagning Sahlgrenska" edasField="ÖNH04" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000001118" name="Öron-, näs- och halsmottagning Östra" edasField="ÖNH05" />
+  </masterValueCatalog>
+
+  <masterValueCatalog name="Vardenhet-SU2" >
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000740" name="Verksamhet medicin och akutsjukvård Mölndal" edasField="AKUT01" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000015112" name="Verksamhet Akutmedicin och geriatrik" edasField="AKUT02" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002266" name="Verksamhet Medicin Geriatrik och Akutmottagning Östra" edasField="AKUT03" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000012072" name="Verksamhet Gynekologi och reproduktionsmedicin" edasField="AKUTOB" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000008934" name="Verksamhet Lungmedicin allergologi och palliativ medicin" edasField="ALL01" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000006389" name="Verksamhet Ambulans prehospital akutsjukvård" edasField="AMB01" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000771" name="Verksamhet Anestesi-Operation-Intensivvård Sahlgrenska" edasField="AN01" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000744" name="Verksamhet An-Op-IVA Mölndal" edasField="ANOP01" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000744" name="Verksamhet An-Op-IVA Mölndal" edasField="ANOP03" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002263" name="Verksamhet Anestesi Operation IVA Östra" edasField="ANOP08" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002263" name="Verksamhet Anestesi Operation IVA Östra" edasField="ANOP09" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000744" name="Verksamhet An-Op-IVA Mölndal" edasField="ANOP10" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000012071" name="Verksamhet Obstetrik" edasField="ANTE01" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000012071" name="Verksamhet Obstetrik" edasField="ANTE02" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000001070" name="Verksamhet Arbetsterapi och fysioterapi" edasField="ARB02" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000001070" name="Verksamhet Arbetsterapi och fysioterapi" edasField="ARB03" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000001070" name="Verksamhet Arbetsterapi och fysioterapi" edasField="ARB04" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000001070" name="Verksamhet Arbetsterapi och fysioterapi" edasField="ARBSG1" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000792" name="Verksamhet Neurologi-Psykiatri-Habilitering" edasField="ARBSG2" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000006590" name="Kansli och juridik" edasField="ARKIV1" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000789" name="Verksamhet Medicin barn" edasField="BAKUT1" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000789" name="Verksamhet Medicin barn" edasField="BALL01" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000013893" name="Verksamhet AnOpIva neonatal barn" edasField="BANOP1" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000794" name="Verksamhet kirurgi barn" edasField="BANOP2" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000792" name="Verksamhet Neurologi-Psykiatri-Habilitering" edasField="BARB01" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000012071" name="Verksamhet Obstetrik" edasField="BB03" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000012071" name="Verksamhet Obstetrik" edasField="BB04" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000012071" name="Verksamhet Obstetrik" edasField="BB05" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000012071" name="Verksamhet Obstetrik" edasField="BB06" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000012071" name="Verksamhet Obstetrik" edasField="BB08" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000012071" name="Verksamhet Obstetrik" edasField="BB09" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000012071" name="Verksamhet Obstetrik" edasField="BB10" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000789" name="Verksamhet Medicin barn" edasField="BDIE01" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002276" name="Verksamhet Beroende" edasField="BER01" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002276" name="Verksamhet Beroende" edasField="BER02" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002276" name="Verksamhet Beroende" edasField="BER03" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002276" name="Verksamhet Beroende" edasField="BER04" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002276" name="Verksamhet Beroende" edasField="BER05" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002276" name="Verksamhet Beroende" edasField="BER06" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002276" name="Verksamhet Beroende" edasField="BER07" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002276" name="Verksamhet Beroende" edasField="BER08" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002276" name="Verksamhet Beroende" edasField="BER09" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002276" name="Verksamhet Beroende" edasField="BER10" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002276" name="Verksamhet Beroende" edasField="BER11" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002276" name="Verksamhet Beroende" edasField="BER12" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002276" name="Verksamhet Beroende" edasField="BER14" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002276" name="Verksamhet Beroende" edasField="BER15" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002276" name="Verksamhet Beroende" edasField="BER16" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002276" name="Verksamhet Beroende" edasField="BER20" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002276" name="Verksamhet Beroende" edasField="BER21" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002276" name="Verksamhet Beroende" edasField="BER22" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002276" name="Verksamhet Beroende" edasField="BER24" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002276" name="Verksamhet Beroende" edasField="BER25" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002276" name="Verksamhet Beroende" edasField="BER27" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002276" name="Verksamhet Beroende" edasField="BER28" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002276" name="Verksamhet Beroende" edasField="BER29" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002276" name="Verksamhet Beroende" edasField="BER30" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002276" name="Verksamhet Beroende" edasField="BER32" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000008517" name="Verksamhet Psykiatri Psykos" edasField="BER33" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002276" name="Verksamhet Beroende" edasField="BER34" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002276" name="Verksamhet Beroende" edasField="BER35" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000792" name="Verksamhet Neurologi-Psykiatri-Habilitering" edasField="BHAB01" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000792" name="Verksamhet Neurologi-Psykiatri-Habilitering" edasField="BHAB02" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000792" name="Verksamhet Neurologi-Psykiatri-Habilitering" edasField="BHAB03" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000013893" name="Verksamhet AnOpIva neonatal barn" edasField="BIVA01" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000791" name="Barnhjärtcentrum" edasField="BKAR01" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000791" name="Barnhjärtcentrum" edasField="BKAR02" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000791" name="Barnhjärtcentrum" edasField="BKAR03" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000794" name="Verksamhet kirurgi barn" edasField="BKIR01" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000789" name="Verksamhet Medicin barn" edasField="BKIR03" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000794" name="Verksamhet kirurgi barn" edasField="BKIR04" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000794" name="Verksamhet kirurgi barn" edasField="BKIR05" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000794" name="Verksamhet kirurgi barn" edasField="BKIR06" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000794" name="Verksamhet kirurgi barn" edasField="BKIR07" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000794" name="Verksamhet kirurgi barn" edasField="BKUR01" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000792" name="Verksamhet Neurologi-Psykiatri-Habilitering" edasField="BLOG01" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000789" name="Verksamhet Medicin barn" edasField="BMED01" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000789" name="Verksamhet Medicin barn" edasField="BMED03" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000789" name="Verksamhet Medicin barn" edasField="BMED04" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000789" name="Verksamhet Medicin barn" edasField="BMED05" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000789" name="Verksamhet Medicin barn" edasField="BMED06" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000789" name="Verksamhet Medicin barn" edasField="BMED07" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000789" name="Verksamhet Medicin barn" edasField="BMED08" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000789" name="Verksamhet Medicin barn" edasField="BMED09" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000789" name="Verksamhet Medicin barn" edasField="BMED10" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000789" name="Verksamhet Medicin barn" edasField="BMED11" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000014987" name="Verksamhet Klinisk genetik och genomik" edasField="BMED12" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000789" name="Verksamhet Medicin barn" edasField="BMED13" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000789" name="Verksamhet Medicin barn" edasField="BMED14" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000789" name="Verksamhet Medicin barn" edasField="BMED15" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000013893" name="Verksamhet AnOpIva neonatal barn" edasField="BNEO01" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000013893" name="Verksamhet AnOpIva neonatal barn" edasField="BNEO02" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000013893" name="Verksamhet AnOpIva neonatal barn" edasField="BNEO03" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000013893" name="Verksamhet AnOpIva neonatal barn" edasField="BNEO04" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000792" name="Verksamhet Neurologi-Psykiatri-Habilitering" edasField="BNEU01" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000792" name="Verksamhet Neurologi-Psykiatri-Habilitering" edasField="BNEU02" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000013334" name="Verksamhet Barncancercentrum" edasField="BONK01" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000013334" name="Verksamhet Barncancercentrum" edasField="BONK03" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000013334" name="Verksamhet Barncancercentrum" edasField="BONK04" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000013334" name="Verksamhet Barncancercentrum" edasField="BONK05" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000013334" name="Verksamhet Barncancercentrum" edasField="BONK06" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000791" name="Barnhjärtcentrum" edasField="BPSY01" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000792" name="Verksamhet Neurologi-Psykiatri-Habilitering" edasField="BSGY01" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000792" name="Verksamhet Neurologi-Psykiatri-Habilitering" edasField="BUP01" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000792" name="Verksamhet Neurologi-Psykiatri-Habilitering" edasField="BUP02" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000792" name="Verksamhet Neurologi-Psykiatri-Habilitering" edasField="BUP03" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000792" name="Verksamhet Neurologi-Psykiatri-Habilitering" edasField="BUP04" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000792" name="Verksamhet Neurologi-Psykiatri-Habilitering" edasField="BUP06" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000792" name="Verksamhet Neurologi-Psykiatri-Habilitering" edasField="BUP07" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000792" name="Verksamhet Neurologi-Psykiatri-Habilitering" edasField="BUP08" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000792" name="Verksamhet Neurologi-Psykiatri-Habilitering" edasField="BUP09" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000792" name="Verksamhet Neurologi-Psykiatri-Habilitering" edasField="BUP10" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000792" name="Verksamhet Neurologi-Psykiatri-Habilitering" edasField="BUP11" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000792" name="Verksamhet Neurologi-Psykiatri-Habilitering" edasField="BUP12" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000792" name="Verksamhet Neurologi-Psykiatri-Habilitering" edasField="BUP13" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000792" name="Verksamhet Neurologi-Psykiatri-Habilitering" edasField="BUP14" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000792" name="Verksamhet Neurologi-Psykiatri-Habilitering" edasField="BUP15" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000792" name="Verksamhet Neurologi-Psykiatri-Habilitering" edasField="BUP16" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000792" name="Verksamhet Neurologi-Psykiatri-Habilitering" edasField="BUP17" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000792" name="Verksamhet Neurologi-Psykiatri-Habilitering" edasField="BUP18" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000792" name="Verksamhet Neurologi-Psykiatri-Habilitering" edasField="BUP20" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000792" name="Verksamhet Neurologi-Psykiatri-Habilitering" edasField="BUP21" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000008934" name="Verksamhet Lungmedicin allergologi och palliativ medicin" edasField="DIE01" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000015113" name="Verksamhet Specialistmedicin" edasField="DIE02" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002266" name="Verksamhet Medicin Geriatrik och Akutmottagning Östra" edasField="DIE03" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000012071" name="Verksamhet Obstetrik" edasField="FÖRL02" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000012071" name="Verksamhet Obstetrik" edasField="FÖRL03" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000012071" name="Verksamhet Obstetrik" edasField="FÖRL04" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000742" name="Verksamhet Geriatrik" edasField="GER01" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000742" name="Verksamhet Geriatrik" edasField="GER02" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000742" name="Verksamhet Geriatrik" edasField="GER03" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000742" name="Verksamhet Geriatrik" edasField="GER04" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000015112" name="Verksamhet Akutmedicin och geriatrik" edasField="GER05" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000008934" name="Verksamhet Lungmedicin allergologi och palliativ medicin" edasField="GER06" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000008934" name="Verksamhet Lungmedicin allergologi och palliativ medicin" edasField="GER07" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000008934" name="Verksamhet Lungmedicin allergologi och palliativ medicin" edasField="GER08" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000008934" name="Verksamhet Lungmedicin allergologi och palliativ medicin" edasField="GER09" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000015112" name="Verksamhet Akutmedicin och geriatrik" edasField="GER10" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000742" name="Verksamhet Geriatrik" edasField="GER12" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000012072" name="Verksamhet Gynekologi och reproduktionsmedicin" edasField="GYN01" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000012072" name="Verksamhet Gynekologi och reproduktionsmedicin" edasField="GYN02" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000012072" name="Verksamhet Gynekologi och reproduktionsmedicin" edasField="GYN03" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000012072" name="Verksamhet Gynekologi och reproduktionsmedicin" edasField="GYN04" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000012072" name="Verksamhet Gynekologi och reproduktionsmedicin" edasField="GYN05" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000012072" name="Verksamhet Gynekologi och reproduktionsmedicin" edasField="GYN06" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000012072" name="Verksamhet Gynekologi och reproduktionsmedicin" edasField="GYN07" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000012072" name="Verksamhet Gynekologi och reproduktionsmedicin" edasField="GYN08" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000011660" name="Verksamhet handkirurgi" edasField="HAND01" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000011660" name="Verksamhet handkirurgi" edasField="HAND02" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000011660" name="Verksamhet handkirurgi" edasField="HAND03" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000011660" name="Verksamhet handkirurgi" edasField="HAND04" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000013351" name="Syn- &amp; Tolkverksamhet" edasField="HOH17" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000003599" name="Hörselverksamhet" edasField="HOH19" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000003599" name="Hörselverksamhet" edasField="HOH20" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000003599" name="Hörselverksamhet" edasField="HOH21" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000003599" name="Hörselverksamhet" edasField="HOH22" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000003599" name="Hörselverksamhet" edasField="HOH23" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000001034" name="Verksamhet Hud- och könssjukvård" edasField="HUD01" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000001034" name="Verksamhet Hud- och könssjukvård" edasField="HUD02" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000001034" name="Verksamhet Hud- och könssjukvård" edasField="HUD03" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000001034" name="Verksamhet Hud- och könssjukvård" edasField="HUD04" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000001034" name="Verksamhet Hud- och könssjukvård" edasField="HUD05" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000011596" name="Verksamhet Hybrid och intervention" edasField="HYBI01" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000011596" name="Verksamhet Hybrid och intervention" edasField="HYBI02" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002275" name="Verksamhet Infektion" edasField="INF01" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002275" name="Verksamhet Infektion" edasField="INF02" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002275" name="Verksamhet Infektion" edasField="INF03" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002275" name="Verksamhet Infektion" edasField="INF04" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002275" name="Verksamhet Infektion" edasField="INF05" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000744" name="Verksamhet An-Op-IVA Mölndal" edasField="IVA01" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000771" name="Verksamhet Anestesi-Operation-Intensivvård Sahlgrenska" edasField="IVA02" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002165" name="Verksamhet Kardiologi" edasField="KARD01" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002165" name="Verksamhet Kardiologi" edasField="KARD02" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002165" name="Verksamhet Kardiologi" edasField="KARD03" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000011596" name="Verksamhet Hybrid och intervention" edasField="KARD04" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002165" name="Verksamhet Kardiologi" edasField="KARD05" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002165" name="Verksamhet Kardiologi" edasField="KARD06" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002165" name="Verksamhet Kardiologi" edasField="KARD09" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000774" name="Verksamhet Kirurgi Sahlgrenska" edasField="KIR01" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000774" name="Verksamhet Kirurgi Sahlgrenska" edasField="KIR02" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002269" name="Verksamhet Kirurgi Östra" edasField="KIR04" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000774" name="Verksamhet Kirurgi Sahlgrenska" edasField="KIR05" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002269" name="Verksamhet Kirurgi Östra" edasField="KIR06" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000774" name="Verksamhet Kirurgi Sahlgrenska" edasField="KIR07" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002269" name="Verksamhet Kirurgi Östra" edasField="KIR08" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002269" name="Verksamhet Kirurgi Östra" edasField="KIR10" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002269" name="Verksamhet Kirurgi Östra" edasField="KIR11" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002269" name="Verksamhet Kirurgi Östra" edasField="KIR12" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002269" name="Verksamhet Kirurgi Östra" edasField="KIR15" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000774" name="Verksamhet Kirurgi Sahlgrenska" edasField="KIR16" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000774" name="Verksamhet Kirurgi Sahlgrenska" edasField="KIR17" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002269" name="Verksamhet Kirurgi Östra" edasField="KIR18" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000014987" name="Verksamhet Klinisk genetik och genomik" edasField="KLING" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000014987" name="Verksamhet Klinisk genetik och genomik" edasField="KLING2" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000977" name="Verksamhet Neurosjukvård" edasField="KNF01" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002266" name="Verksamhet Medicin Geriatrik och Akutmottagning Östra" edasField="KUR01" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000012072" name="Verksamhet Gynekologi och reproduktionsmedicin" edasField="KUR02" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002269" name="Verksamhet Kirurgi Östra" edasField="KUR03" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000742" name="Verksamhet Geriatrik" edasField="KUR06" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000001034" name="Verksamhet Hud- och könssjukvård" edasField="KUR07" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002275" name="Verksamhet Infektion" edasField="KUR08" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000774" name="Verksamhet Kirurgi Sahlgrenska" edasField="KUR09" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000001052" name="Verksamhet Reumatologi" edasField="KUR11" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000012072" name="Verksamhet Gynekologi och reproduktionsmedicin" edasField="KUR12" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000012072" name="Verksamhet Gynekologi och reproduktionsmedicin" edasField="KUR13" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000011596" name="Verksamhet Hybrid och intervention" edasField="KÄRL01" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000011596" name="Verksamhet Hybrid och intervention" edasField="KÄRL02" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000008934" name="Verksamhet Lungmedicin allergologi och palliativ medicin" edasField="LUNG01" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000008934" name="Verksamhet Lungmedicin allergologi och palliativ medicin" edasField="LUNG02" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000008934" name="Verksamhet Lungmedicin allergologi och palliativ medicin" edasField="LUNG03" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000008934" name="Verksamhet Lungmedicin allergologi och palliativ medicin" edasField="LUNG04" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000008934" name="Verksamhet Lungmedicin allergologi och palliativ medicin" edasField="LUNG05" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000008934" name="Verksamhet Lungmedicin allergologi och palliativ medicin" edasField="LUNG06" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000008934" name="Verksamhet Lungmedicin allergologi och palliativ medicin" edasField="LUNG07" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000008934" name="Verksamhet Lungmedicin allergologi och palliativ medicin" edasField="LUNG08" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000008934" name="Verksamhet Lungmedicin allergologi och palliativ medicin" edasField="LUNG09" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000008934" name="Verksamhet Lungmedicin allergologi och palliativ medicin" edasField="LUNG10" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000008934" name="Verksamhet Lungmedicin allergologi och palliativ medicin" edasField="LUNG11" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000008934" name="Verksamhet Lungmedicin allergologi och palliativ medicin" edasField="LUNG12" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002266" name="Verksamhet Medicin Geriatrik och Akutmottagning Östra" edasField="MED01" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002266" name="Verksamhet Medicin Geriatrik och Akutmottagning Östra" edasField="MED02" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002266" name="Verksamhet Medicin Geriatrik och Akutmottagning Östra" edasField="MED03" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002266" name="Verksamhet Medicin Geriatrik och Akutmottagning Östra" edasField="MED04" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002266" name="Verksamhet Medicin Geriatrik och Akutmottagning Östra" edasField="MED05" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002266" name="Verksamhet Medicin Geriatrik och Akutmottagning Östra" edasField="MED06" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002266" name="Verksamhet Medicin Geriatrik och Akutmottagning Östra" edasField="MED07" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002266" name="Verksamhet Medicin Geriatrik och Akutmottagning Östra" edasField="MED08" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002266" name="Verksamhet Medicin Geriatrik och Akutmottagning Östra" edasField="MED09" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002266" name="Verksamhet Medicin Geriatrik och Akutmottagning Östra" edasField="MED10" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002266" name="Verksamhet Medicin Geriatrik och Akutmottagning Östra" edasField="MED11" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002266" name="Verksamhet Medicin Geriatrik och Akutmottagning Östra" edasField="MED12" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000740" name="Verksamhet medicin och akutsjukvård Mölndal" edasField="MED14" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000740" name="Verksamhet medicin och akutsjukvård Mölndal" edasField="MED15" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000740" name="Verksamhet medicin och akutsjukvård Mölndal" edasField="MED16" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000740" name="Verksamhet medicin och akutsjukvård Mölndal" edasField="MED17" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000015112" name="Verksamhet Akutmedicin och geriatrik" edasField="MED18" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000015113" name="Verksamhet Specialistmedicin" edasField="MED20" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000015113" name="Verksamhet Specialistmedicin" edasField="MED21" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000015113" name="Verksamhet Specialistmedicin" edasField="MED22" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000015113" name="Verksamhet Specialistmedicin" edasField="MED23" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000015113" name="Verksamhet Specialistmedicin" edasField="MED24" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000015113" name="Verksamhet Specialistmedicin" edasField="MED25" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000015113" name="Verksamhet Specialistmedicin" edasField="MED26" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002266" name="Verksamhet Medicin Geriatrik och Akutmottagning Östra" edasField="MED27" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002266" name="Verksamhet Medicin Geriatrik och Akutmottagning Östra" edasField="MED28" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000015113" name="Verksamhet Specialistmedicin" edasField="MED29" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000740" name="Verksamhet medicin och akutsjukvård Mölndal" edasField="MED30" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000740" name="Verksamhet medicin och akutsjukvård Mölndal" edasField="MED31" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000015113" name="Verksamhet Specialistmedicin" edasField="MED32" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000015113" name="Verksamhet Specialistmedicin" edasField="MED33" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002266" name="Verksamhet Medicin Geriatrik och Akutmottagning Östra" edasField="MED34" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002266" name="Verksamhet Medicin Geriatrik och Akutmottagning Östra" edasField="MED35" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000015112" name="Verksamhet Akutmedicin och geriatrik" edasField="MED36" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000015113" name="Verksamhet Specialistmedicin" edasField="MED37" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000740" name="Verksamhet medicin och akutsjukvård Mölndal" edasField="MED38" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002266" name="Verksamhet Medicin Geriatrik och Akutmottagning Östra" edasField="MED39" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000015112" name="Verksamhet Akutmedicin och geriatrik" edasField="MED40" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000740" name="Verksamhet medicin och akutsjukvård Mölndal" edasField="MED41" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000015112" name="Verksamhet Akutmedicin och geriatrik" edasField="MED42" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002266" name="Verksamhet Medicin Geriatrik och Akutmottagning Östra" edasField="MED43" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002266" name="Verksamhet Medicin Geriatrik och Akutmottagning Östra" edasField="MED44" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002266" name="Verksamhet Medicin Geriatrik och Akutmottagning Östra" edasField="MED45" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002266" name="Verksamhet Medicin Geriatrik och Akutmottagning Östra" edasField="MED46" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002266" name="Verksamhet Medicin Geriatrik och Akutmottagning Östra" edasField="MED47" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002266" name="Verksamhet Medicin Geriatrik och Akutmottagning Östra" edasField="MED48" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002266" name="Verksamhet Medicin Geriatrik och Akutmottagning Östra" edasField="MED49" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002266" name="Verksamhet Medicin Geriatrik och Akutmottagning Östra" edasField="MED50" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000740" name="Verksamhet medicin och akutsjukvård Mölndal" edasField="MED51" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000740" name="Verksamhet medicin och akutsjukvård Mölndal" edasField="MED52" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000977" name="Verksamhet Neurosjukvård" edasField="NEU01" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000977" name="Verksamhet Neurosjukvård" edasField="NEU02" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000977" name="Verksamhet Neurosjukvård" edasField="NEU03" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000977" name="Verksamhet Neurosjukvård" edasField="NEU04" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000977" name="Verksamhet Neurosjukvård" edasField="NEU05" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000977" name="Verksamhet Neurosjukvård" edasField="NEU06" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000977" name="Verksamhet Neurosjukvård" edasField="NEU07" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000977" name="Verksamhet Neurosjukvård" edasField="NEU08" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000977" name="Verksamhet Neurosjukvård" edasField="NEU09" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000977" name="Verksamhet Neurosjukvård" edasField="NEU10" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000977" name="Verksamhet Neurosjukvård" edasField="NEU11" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000777" name="Verksamhet Njurmedicin" edasField="NJUR01" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000777" name="Verksamhet Njurmedicin" edasField="NJUR02" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000777" name="Verksamhet Njurmedicin" edasField="NJUR03" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000777" name="Verksamhet Njurmedicin" edasField="NJUR04" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000777" name="Verksamhet Njurmedicin" edasField="NJUR05" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000777" name="Verksamhet Njurmedicin" edasField="NJUR06" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000777" name="Verksamhet Njurmedicin" edasField="NJUR07" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000777" name="Verksamhet Njurmedicin" edasField="NJUR08" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000777" name="Verksamhet Njurmedicin" edasField="NJUR09" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000748" name="Verksamhet Psykiatri kognition och äldrepsykiatri" edasField="NP01" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000748" name="Verksamhet Psykiatri kognition och äldrepsykiatri" edasField="NP02" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000748" name="Verksamhet Psykiatri kognition och äldrepsykiatri" edasField="NP03" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000748" name="Verksamhet Psykiatri kognition och äldrepsykiatri" edasField="NP04" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000748" name="Verksamhet Psykiatri kognition och äldrepsykiatri" edasField="NP05" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000748" name="Verksamhet Psykiatri kognition och äldrepsykiatri" edasField="NP06" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000748" name="Verksamhet Psykiatri kognition och äldrepsykiatri" edasField="NP07" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000001715" name="Verksamhet Onkologi" edasField="ONK01" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000001715" name="Verksamhet Onkologi" edasField="ONK02" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000001715" name="Verksamhet Onkologi" edasField="ONK03" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000001715" name="Verksamhet Onkologi" edasField="ONK04" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000001715" name="Verksamhet Onkologi" edasField="ONK05" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000001715" name="Verksamhet Onkologi" edasField="ONK06" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000001715" name="Verksamhet Onkologi" edasField="ONK07" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000001715" name="Verksamhet Onkologi" edasField="ONK08" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000001715" name="Verksamhet Onkologi" edasField="ONK09" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000001715" name="Verksamhet Onkologi" edasField="ONK11" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000001715" name="Verksamhet Onkologi" edasField="ONK12" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000001715" name="Verksamhet Onkologi" edasField="ONK13" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000011660" name="Verksamhet handkirurgi" edasField="ORHA01" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000011660" name="Verksamhet handkirurgi" edasField="ORHA02" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000003990" name="Verksamhet Ortopedi" edasField="ORT01" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000003990" name="Verksamhet Ortopedi" edasField="ORT02" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000003990" name="Verksamhet Ortopedi" edasField="ORT03" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000003990" name="Verksamhet Ortopedi" edasField="ORT04" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000003990" name="Verksamhet Ortopedi" edasField="ORT05" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000003990" name="Verksamhet Ortopedi" edasField="ORT06" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000003990" name="Verksamhet Ortopedi" edasField="ORT07" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000003990" name="Verksamhet Ortopedi" edasField="ORT08" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000003990" name="Verksamhet Ortopedi" edasField="ORT09" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000003990" name="Verksamhet Ortopedi" edasField="ORT10" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000013334" name="Verksamhet Barncancercentrum" edasField="PCRC01" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000011661" name="Verksamhet Plastikkirurgi" edasField="PLK01" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000011661" name="Verksamhet Plastikkirurgi" edasField="PLK02" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000011661" name="Verksamhet Plastikkirurgi" edasField="PLK03" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000011661" name="Verksamhet Plastikkirurgi" edasField="PLK04" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000011745" name="Verksamhet Psykiatri Affektiva" edasField="PSYK01" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000011745" name="Verksamhet Psykiatri Affektiva" edasField="PSYK02" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002276" name="Verksamhet Beroende" edasField="PSYK03" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000011745" name="Verksamhet Psykiatri Affektiva" edasField="PSYK04" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000011745" name="Verksamhet Psykiatri Affektiva" edasField="PSYK05" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000011745" name="Verksamhet Psykiatri Affektiva" edasField="PSYK06" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000011745" name="Verksamhet Psykiatri Affektiva" edasField="PSYK07" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000011745" name="Verksamhet Psykiatri Affektiva" edasField="PSYK08" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000748" name="Verksamhet Psykiatri kognition och äldrepsykiatri" edasField="PSYK09" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000008517" name="Verksamhet Psykiatri Psykos" edasField="PSYK10" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000008517" name="Verksamhet Psykiatri Psykos" edasField="PSYK11" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000008517" name="Verksamhet Psykiatri Psykos" edasField="PSYK12" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000008517" name="Verksamhet Psykiatri Psykos" edasField="PSYK13" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002276" name="Verksamhet Beroende" edasField="PSYK14 " />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000011745" name="Verksamhet Psykiatri Affektiva" edasField="PSYK15" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000011745" name="Verksamhet Psykiatri Affektiva" edasField="PSYK17" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000011745" name="Verksamhet Psykiatri Affektiva" edasField="PSYK23" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000011745" name="Verksamhet Psykiatri Affektiva" edasField="PSYK24" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000011745" name="Verksamhet Psykiatri Affektiva" edasField="PSYK25" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000011745" name="Verksamhet Psykiatri Affektiva" edasField="PSYK27" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000748" name="Verksamhet Psykiatri kognition och äldrepsykiatri" edasField="PSYK28" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000011745" name="Verksamhet Psykiatri Affektiva" edasField="PSYK29" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000011745" name="Verksamhet Psykiatri Affektiva" edasField="PSYK30" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000008517" name="Verksamhet Psykiatri Psykos" edasField="PSYK32" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000008517" name="Verksamhet Psykiatri Psykos" edasField="PSYK33" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000008517" name="Verksamhet Psykiatri Psykos" edasField="PSYK34" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000008517" name="Verksamhet Psykiatri Psykos" edasField="PSYK35" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000008517" name="Verksamhet Psykiatri Psykos" edasField="PSYK36" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000008517" name="Verksamhet Psykiatri Psykos" edasField="PSYK37" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000008517" name="Verksamhet Psykiatri Psykos" edasField="PSYK38" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000008517" name="Verksamhet Psykiatri Psykos" edasField="PSYK39" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000008517" name="Verksamhet Psykiatri Psykos" edasField="PSYK40" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000008517" name="Verksamhet Psykiatri Psykos" edasField="PSYK41" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000008517" name="Verksamhet Psykiatri Psykos" edasField="PSYK42" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000011745" name="Verksamhet Psykiatri Affektiva" edasField="PSYK43" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000011745" name="Verksamhet Psykiatri Affektiva" edasField="PSYK44" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000011745" name="Verksamhet Psykiatri Affektiva" edasField="PSYK45" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000008517" name="Verksamhet Psykiatri Psykos" edasField="PSYK46" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000011745" name="Verksamhet Psykiatri Affektiva" edasField="PSYK47" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000011745" name="Verksamhet Psykiatri Affektiva" edasField="PSYK48" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000011745" name="Verksamhet Psykiatri Affektiva" edasField="PSYK49" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000011745" name="Verksamhet Psykiatri Affektiva" edasField="PSYK50" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000011745" name="Verksamhet Psykiatri Affektiva" edasField="PSYK51" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000011745" name="Verksamhet Psykiatri Affektiva" edasField="PSYK52" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000011745" name="Verksamhet Psykiatri Affektiva" edasField="PSYK53" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000001052" name="Verksamhet Reumatologi" edasField="REUM01" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000001052" name="Verksamhet Reumatologi" edasField="REUM02" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000001052" name="Verksamhet Reumatologi" edasField="REUM03" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000001052" name="Verksamhet Reumatologi" edasField="REUM04" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000015112" name="Verksamhet Akutmedicin och geriatrik" edasField="RM01" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002274" name="Verksamhet Rättspsykiatri" edasField="RPE02" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002274" name="Verksamhet Rättspsykiatri" edasField="RPE03" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002274" name="Verksamhet Rättspsykiatri" edasField="RPE04" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002274" name="Verksamhet Rättspsykiatri" edasField="RPE06" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002274" name="Verksamhet Rättspsykiatri" edasField="RPE07" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002274" name="Verksamhet Rättspsykiatri" edasField="RPE08" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002274" name="Verksamhet Rättspsykiatri" edasField="RPE09" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000001070" name="Verksamhet Arbetsterapi och fysioterapi" edasField="SGY02" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000001070" name="Verksamhet Arbetsterapi och fysioterapi" edasField="SGY03" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000001070" name="Verksamhet Arbetsterapi och fysioterapi" edasField="SGY04" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002263" name="Verksamhet Anestesi Operation IVA Östra" edasField="SMÄRT2" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000008059" name="Verksamhet Thorax" edasField="THX01" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000008059" name="Verksamhet Thorax" edasField="THX02" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000008059" name="Verksamhet Thorax" edasField="THX03" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000008059" name="Verksamhet Thorax" edasField="THX04" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000002263" name="Verksamhet Anestesi Operation IVA Östra" edasField="TKA01" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000004088" name="Transplantationscentrum" edasField="TRPL01" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000004088" name="Transplantationscentrum" edasField="TRPL02" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000940" name="Verksamhet Urologi" edasField="URO01" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000940" name="Verksamhet Urologi" edasField="URO02" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000940" name="Verksamhet Urologi" edasField="URO04" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000979" name="Verksamhet Ögonsjukvård" edasField="ÖGON01" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000979" name="Verksamhet Ögonsjukvård" edasField="ÖGON02" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000979" name="Verksamhet Ögonsjukvård" edasField="ÖGON03" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000979" name="Verksamhet Ögonsjukvård" edasField="ÖGON04" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000979" name="Verksamhet Ögonsjukvård" edasField="ÖGON05" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000979" name="Verksamhet Ögonsjukvård" edasField="ÖGON06" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000979" name="Verksamhet Ögonsjukvård" edasField="ÖGON07" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000979" name="Verksamhet Ögonsjukvård" edasField="ÖGON08" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000980" name="Verksamhet Öron- Näs- och Halssjukvård" edasField="ÖNH01" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000980" name="Verksamhet Öron- Näs- och Halssjukvård" edasField="ÖNH02" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000980" name="Verksamhet Öron- Näs- och Halssjukvård" edasField="ÖNH03" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000980" name="Verksamhet Öron- Näs- och Halssjukvård" edasField="ÖNH04" />
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000980" name="Verksamhet Öron- Näs- och Halssjukvård" edasField="ÖNH05" />
+  </masterValueCatalog>
+
+  <masterValueCatalog name="Myndighet-SU2" defaultOid="1.2.752.129.2.1.4.1" defaultCode="SE2321000131-E000000000109" defaultName="Sahlgrenska Universitetssjukhuset">
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000109" name="Sahlgrenska Universitetssjukhuset" edasField="AKUM" />
+  </masterValueCatalog>
+
+  <masterValueCatalog name="Vardgivare" defaultOid="1.2.752.129.2.1.4.1" defaultCode="SE2321000131-E000000000001" defaultName="Västra Götalandsregionen">
+    <mvcItem oid="1.2.752.129.2.1.4.1" code="SE2321000131-E000000000001" name="Västra Götalandsregionen" edasField="AKUM" />
+  </masterValueCatalog>
+
+
+
+</masterValueCatalogs>
