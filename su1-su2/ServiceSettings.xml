@@ -5,8 +5,8 @@
 
     <downtime start="23:30:00" end="05:00:00" />
 
-    <dbConnectionFrame connectionString="Data Source=VGDB0947\i01,62468;Initial Catalog=KIBIBase_Framework_SU;User ID=sql_kibibase;Password=K1biki8i1" dllType="System.Data.SqlClient" />
-    <dbConnectionMigrationTables connectionString="Data Source=VGDB0947\i01,62468;Initial Catalog=KIBIBase_Data_SU;User ID=sql_kibibase;Password=K1biki8i1" dllType="System.Data.SqlClient" />
+    <dbConnectionFrame connectionString="Data Source=***************;Initial Catalog=KIBIBase_Framework_SU;User ID=sql_kibibase;Password=***************" dllType="System.Data.SqlClient" />
+    <dbConnectionMigrationTables connectionString="Data Source=***************;Initial Catalog=KIBIBase_Data_SU;User ID=sql_kibibase;Password=***************" dllType="System.Data.SqlClient" />
 
     <tempVolumesDirectory directory="D:\Netserv\Migration\MigrationVolumesTemp" />
 
